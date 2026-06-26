@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <AssemblyName>RSR2_RandomisedItemSpawn</AssemblyName>
     <RootNamespace>RimWorld</RootNamespace>
-    <OutputPath>Assemblies</OutputPath>
+    <OutputPath>..\1.6\Assemblies</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>

@@ -1,4 +1,7 @@
 /.vscode/obj
+/*/obj
+/Source/obj
+/Source/Assemblies
 /*.sln 
 /*/Assemblies/*.pdb
 
