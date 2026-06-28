@@ -12,6 +12,5 @@ Build a tunnel leading to a vast network of forgotten dungeons and send your col
 
 ## Supported RimWorld Versions
 
-- 1.4
 - 1.5
 - 1.6
