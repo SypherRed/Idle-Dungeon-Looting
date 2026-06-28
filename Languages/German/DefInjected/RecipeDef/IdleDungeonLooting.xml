@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ScavengeDungeon_Random.label>Zufällige Beute suchen</ScavengeDungeon_Random.label>
+  <ScavengeDungeon_Random.description>Durchsuche das Verlies nach allem, was du finden kannst, bis du nichts mehr tragen kannst. Das Inventar füllt sich dabei schnell. Gemessen am Wertgewinn pro Minute ist diese Tätigkeit doppelt so effizient wie die Suche nach bestimmten Gegenständen. Erzeugt zufällige Beute.</ScavengeDungeon_Random.description>
+  <ScavengeDungeon_Random.jobString>Sucht mit doppelter Effizienz nach beliebiger Beute.</ScavengeDungeon_Random.jobString>
+  <ScavengeDungeon_Food.label>Nahrung suchen</ScavengeDungeon_Food.label>
+  <ScavengeDungeon_Food.description>Durchsuche das Verlies ausschließlich nach essbarer Nahrung und ignoriere alle anderen Gegenstände.</ScavengeDungeon_Food.description>
+  <ScavengeDungeon_Food.jobString>Sucht im Verlies nach Nahrung.</ScavengeDungeon_Food.jobString>
+  <ScavengeDungeon_BuildingMaterials.label>Baumaterialien suchen</ScavengeDungeon_BuildingMaterials.label>
+  <ScavengeDungeon_BuildingMaterials.description>Durchsuche das Verlies nach Baumaterialien wie Steinblöcken, Erzen und Holz.</ScavengeDungeon_BuildingMaterials.description>
+  <ScavengeDungeon_BuildingMaterials.jobString>Sucht nach Baumaterialien.</ScavengeDungeon_BuildingMaterials.jobString>
+  <ScavengeDungeon_CraftingMaterials.label>Handwerksmaterialien suchen</ScavengeDungeon_CraftingMaterials.label>
+  <ScavengeDungeon_CraftingMaterials.description>Durchsuche das Verlies nach Handwerksmaterialien wie Wolle, Leder und Erzen.</ScavengeDungeon_CraftingMaterials.description>
+  <ScavengeDungeon_CraftingMaterials.jobString>Sucht nach Handwerksmaterialien.</ScavengeDungeon_CraftingMaterials.jobString>
+  <ScavengeDungeon_WeaponsAmmo.label>Waffen und Granaten suchen</ScavengeDungeon_WeaponsAmmo.label>
+  <ScavengeDungeon_WeaponsAmmo.description>Durchsuche das Verlies nach Waffen und Granaten.</ScavengeDungeon_WeaponsAmmo.description>
+  <ScavengeDungeon_WeaponsAmmo.jobString>Sucht nach Waffen und Granaten.</ScavengeDungeon_WeaponsAmmo.jobString>
+  <ScavengeDungeon_Apparel.label>Kleidung und Rüstung suchen</ScavengeDungeon_Apparel.label>
+  <ScavengeDungeon_Apparel.description>Durchsuche das Verlies nach Kleidung und Rüstung aller Technologiestufen.</ScavengeDungeon_Apparel.description>
+  <ScavengeDungeon_Apparel.jobString>Sucht nach Kleidung und Rüstung.</ScavengeDungeon_Apparel.jobString>
+  <ScavengeDungeon_Medical.label>Medizinische Gegenstände suchen</ScavengeDungeon_Medical.label>
+  <ScavengeDungeon_Medical.description>Durchsuche das Verlies nach medizinischen Gegenständen wie Neutroamin, Medizin, Implantaten und künstlichen Körperteilen.</ScavengeDungeon_Medical.description>
+  <ScavengeDungeon_Medical.jobString>Sucht nach medizinischen Gegenständen.</ScavengeDungeon_Medical.jobString>
+  <ScavengeDungeon_Drugs.label>Drogen suchen</ScavengeDungeon_Drugs.label>
+  <ScavengeDungeon_Drugs.description>Durchsuche das Verlies nach Drogen.</ScavengeDungeon_Drugs.description>
+  <ScavengeDungeon_Drugs.jobString>Sucht nach Drogen.</ScavengeDungeon_Drugs.jobString>
+  <ScavengeDungeon_Rare.label>Seltene Beute suchen</ScavengeDungeon_Rare.label>
+  <ScavengeDungeon_Rare.description>Durchsuche das Verlies nach seltenen und wertvollen Gegenständen, die nur schwer zu bekommen sind. Die Suche nach seltener Beute kann lange dauern.</ScavengeDungeon_Rare.description>
+  <ScavengeDungeon_Rare.jobString>Sucht nach seltener Beute.</ScavengeDungeon_Rare.jobString>
+</LanguageData>

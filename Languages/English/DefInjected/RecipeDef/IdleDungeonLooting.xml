@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ScavengeDungeon_Random.label>Scavenge random loot</ScavengeDungeon_Random.label>
+  <ScavengeDungeon_Random.description>Scavenge the dungeon, looting anything you can find until you cannot carry any more. Inventory fills up fast when looting all items. In terms of value gained per minute, this action is twice as efficient as searching for specific items. Produces random loot.</ScavengeDungeon_Random.description>
+  <ScavengeDungeon_Random.jobString>Scavenging for anything at twice the efficiency.</ScavengeDungeon_Random.jobString>
+  <ScavengeDungeon_Food.label>Scavenge for food</ScavengeDungeon_Food.label>
+  <ScavengeDungeon_Food.description>Scavenge the dungeon for edible food while ignoring all other items.</ScavengeDungeon_Food.description>
+  <ScavengeDungeon_Food.jobString>Scavenging the dungeon for food.</ScavengeDungeon_Food.jobString>
+  <ScavengeDungeon_BuildingMaterials.label>Scavenge for building materials</ScavengeDungeon_BuildingMaterials.label>
+  <ScavengeDungeon_BuildingMaterials.description>Scavenge the dungeon for building materials such as blocks, mineral ores, and wood logs.</ScavengeDungeon_BuildingMaterials.description>
+  <ScavengeDungeon_BuildingMaterials.jobString>Scavenging for building materials.</ScavengeDungeon_BuildingMaterials.jobString>
+  <ScavengeDungeon_CraftingMaterials.label>Scavenge for crafting materials</ScavengeDungeon_CraftingMaterials.label>
+  <ScavengeDungeon_CraftingMaterials.description>Scavenge the dungeon for crafting materials such as wool, leather, and mineral ores.</ScavengeDungeon_CraftingMaterials.description>
+  <ScavengeDungeon_CraftingMaterials.jobString>Scavenging for crafting materials.</ScavengeDungeon_CraftingMaterials.jobString>
+  <ScavengeDungeon_WeaponsAmmo.label>Scavenge for weapons and shells</ScavengeDungeon_WeaponsAmmo.label>
+  <ScavengeDungeon_WeaponsAmmo.description>Scavenge the dungeon for weapons and shells.</ScavengeDungeon_WeaponsAmmo.description>
+  <ScavengeDungeon_WeaponsAmmo.jobString>Scavenging for weapons and shells.</ScavengeDungeon_WeaponsAmmo.jobString>
+  <ScavengeDungeon_Apparel.label>Scavenge for apparel and armor</ScavengeDungeon_Apparel.label>
+  <ScavengeDungeon_Apparel.description>Scavenge the dungeon for apparel and armor of any tech level.</ScavengeDungeon_Apparel.description>
+  <ScavengeDungeon_Apparel.jobString>Scavenging for apparel and armor.</ScavengeDungeon_Apparel.jobString>
+  <ScavengeDungeon_Medical.label>Scavenge for medical items</ScavengeDungeon_Medical.label>
+  <ScavengeDungeon_Medical.description>Scavenge the dungeon for medical items such as neutroamine, medicine, implants, and artificial body parts.</ScavengeDungeon_Medical.description>
+  <ScavengeDungeon_Medical.jobString>Scavenging for medical items.</ScavengeDungeon_Medical.jobString>
+  <ScavengeDungeon_Drugs.label>Scavenge for drugs</ScavengeDungeon_Drugs.label>
+  <ScavengeDungeon_Drugs.description>Scavenge the dungeon for drugs.</ScavengeDungeon_Drugs.description>
+  <ScavengeDungeon_Drugs.jobString>Scavenging for drugs.</ScavengeDungeon_Drugs.jobString>
+  <ScavengeDungeon_Rare.label>Scavenge for rare loot</ScavengeDungeon_Rare.label>
+  <ScavengeDungeon_Rare.description>Scavenge the dungeon for rare and valuable items that are difficult to obtain. Searching for rare items can take a long time.</ScavengeDungeon_Rare.description>
+  <ScavengeDungeon_Rare.jobString>Scavenging for rare loot.</ScavengeDungeon_Rare.jobString>
+</LanguageData>

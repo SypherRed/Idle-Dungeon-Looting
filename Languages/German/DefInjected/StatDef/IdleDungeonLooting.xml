@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DungeonSpeed.label>Verliesgeschwindigkeit</DungeonSpeed.label>
+  <DungeonSpeed.description>Die Geschwindigkeit, mit der diese Person ein Verlies durchqueren kann.\n\nMit zunehmender Intelligenz steigt der Verlisertrag, da die Person tiefere Verliese mit mehr Beute erkunden kann. Gleichzeitig sinkt die Verliesgeschwindigkeit, weil das Plündern anspruchsvollerer Verliese länger dauert. Der durchschnittliche Wertgewinn im Verhältnis zur benötigten Zeit ist auf höheren Stufen dennoch besser.\n\nDie Verliesgeschwindigkeit kann durch Verliesverbesserungen aus der Kategorie Verschiedenes erhöht werden.</DungeonSpeed.description>
+  <DungeonYield.label>Verlisertrag</DungeonYield.label>
+  <DungeonYield.description>Die Menge an Beute, die diese Person in Verliesen finden kann.\n\nMit zunehmender Intelligenz steigt der Verlisertrag, da die Person tiefere Verliese mit mehr Beute erkunden kann. Gleichzeitig sinkt die Verliesgeschwindigkeit, weil das Plündern anspruchsvollerer Verliese länger dauert. Der durchschnittliche Wertgewinn im Verhältnis zur benötigten Zeit ist auf höheren Stufen dennoch besser.</DungeonYield.description>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dungeon.label>entrée de donjon</Dungeon.label>
+  <Dungeon.description>Une civilisation souterraine vivait autrefois loin sous la surface. Mais tous ses habitants ont disparu. Que leur est-il arrivé ? Nul ne le sait, mais une chose est certaine : ils ont laissé beaucoup de butin là-dessous.\n\nConstruisez un tunnel vers un vaste réseau de donjons cachés sous la surface et pillez leurs trésors.</Dungeon.description>
+  <DungeonLoot_Random.label>butin aléatoire</DungeonLoot_Random.label>
+  <DungeonLoot_Food.label>nourriture</DungeonLoot_Food.label>
+  <DungeonLoot_BuildingMaterials.label>matériaux de construction</DungeonLoot_BuildingMaterials.label>
+  <DungeonLoot_CraftingMaterials.label>matériaux d'artisanat</DungeonLoot_CraftingMaterials.label>
+  <DungeonLoot_Weapons.label>armes et munitions</DungeonLoot_Weapons.label>
+  <DungeonLoot_Apparel.label>vêtements</DungeonLoot_Apparel.label>
+  <DungeonLoot_Medical.label>matériel médical</DungeonLoot_Medical.label>
+  <DungeonLoot_Drugs.label>drogues</DungeonLoot_Drugs.label>
+  <DungeonLoot_Rare.label>objets rares</DungeonLoot_Rare.label>
+  <DungeonLoot_Random.description>Butin aléatoire trouvé dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_Random.description>
+  <DungeonLoot_Food.description>Nourriture trouvée dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_Food.description>
+  <DungeonLoot_BuildingMaterials.description>Matériaux de construction trouvés dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_BuildingMaterials.description>
+  <DungeonLoot_CraftingMaterials.description>Matériaux d'artisanat trouvés dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_CraftingMaterials.description>
+  <DungeonLoot_Weapons.description>Armes et munitions trouvées dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_Weapons.description>
+  <DungeonLoot_Apparel.description>Vêtements trouvés dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_Apparel.description>
+  <DungeonLoot_Medical.description>Matériel médical trouvé dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_Medical.description>
+  <DungeonLoot_Drugs.description>Drogues trouvées dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_Drugs.description>
+  <DungeonLoot_Rare.description>Objets rares trouvés dans un donjon. Autorisez cet objet dans une zone de stockage pour que les colons puissent y déposer ce type de butin.</DungeonLoot_Rare.description>
+  <DungeonUpgrade.label>amélioration de donjon</DungeonUpgrade.label>
+  <DungeonUpgrade.description>Installez un tonneau rempli de bière, mélangée à un peu de go-juice et saupoudrée de wake-up écrasé.\n\nCe bâtiment augmente passivement la vitesse à laquelle les colons explorent un donjon, car ils en boivent une gorgée avant d'entrer. Il doit être placé directement à côté d'une entrée de donjon. Le bonus ne s'applique qu'une fois par entrée ; plusieurs améliorations ne se cumulent pas.</DungeonUpgrade.description>
+  <UnfinishedTreasureMap.label>carte de donjon</UnfinishedTreasureMap.label>
+  <UnfinishedTreasureMap.description>Cet objet inachevé conserve la progression d'un colon dans le donjon, de 0 % à 100 %, afin qu'il ne recommence pas depuis le début après l'interruption d'une tâche de fouille. Annuler cet objet réinitialise sa progression.</UnfinishedTreasureMap.description>
+</LanguageData>
