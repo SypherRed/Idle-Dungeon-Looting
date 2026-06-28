@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DungeonSpeed.label>dungeon speed</DungeonSpeed.label>
+  <DungeonSpeed.description>The speed at which this person can navigate a dungeon.\n\nAs the pawn reaches a higher Intellectual level, dungeon yield increases because the pawn can explore deeper dungeons with more loot, but dungeon speed decreases because looting higher-level dungeons takes longer. The average wealth gained for the time spent is still better at higher levels.\n\nDungeon speed can be improved by building dungeon upgrades from the Misc category.</DungeonSpeed.description>
+  <DungeonYield.label>dungeon yield</DungeonYield.label>
+  <DungeonYield.description>The amount of loot this person can find in dungeons.\n\nAs the pawn reaches a higher Intellectual level, dungeon yield increases because the pawn can explore deeper dungeons with more loot, but dungeon speed decreases because looting higher-level dungeons takes longer. The average wealth gained for the time spent is still better at higher levels.</DungeonYield.description>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dungeon.label>entrada a la mazmorra</Dungeon.label>
+  <Dungeon.description>Hace mucho tiempo, una civilización vivía bajo la superficie. Ahora todos han desaparecido. ¿Qué les ocurrió? Nadie lo sabe, pero hay algo seguro: dejaron mucho botín ahí abajo.\n\nConstruye un túnel hacia una extensa red de mazmorras ocultas bajo la superficie y saquea sus tesoros.</Dungeon.description>
+  <DungeonLoot_Random.label>botín aleatorio</DungeonLoot_Random.label>
+  <DungeonLoot_Food.label>comida</DungeonLoot_Food.label>
+  <DungeonLoot_BuildingMaterials.label>materiales de construcción</DungeonLoot_BuildingMaterials.label>
+  <DungeonLoot_CraftingMaterials.label>materiales de fabricación</DungeonLoot_CraftingMaterials.label>
+  <DungeonLoot_Weapons.label>armas y munición</DungeonLoot_Weapons.label>
+  <DungeonLoot_Apparel.label>ropa</DungeonLoot_Apparel.label>
+  <DungeonLoot_Medical.label>objetos médicos</DungeonLoot_Medical.label>
+  <DungeonLoot_Drugs.label>drogas</DungeonLoot_Drugs.label>
+  <DungeonLoot_Rare.label>objetos raros</DungeonLoot_Rare.label>
+  <DungeonLoot_Random.description>Botín aleatorio encontrado en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_Random.description>
+  <DungeonLoot_Food.description>Comida encontrada en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_Food.description>
+  <DungeonLoot_BuildingMaterials.description>Materiales de construcción encontrados en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_BuildingMaterials.description>
+  <DungeonLoot_CraftingMaterials.description>Materiales de fabricación encontrados en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_CraftingMaterials.description>
+  <DungeonLoot_Weapons.description>Armas y munición encontradas en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_Weapons.description>
+  <DungeonLoot_Apparel.description>Ropa encontrada en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_Apparel.description>
+  <DungeonLoot_Medical.description>Objetos médicos encontrados en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_Medical.description>
+  <DungeonLoot_Drugs.description>Drogas encontradas en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_Drugs.description>
+  <DungeonLoot_Rare.description>Objetos raros encontrados en una mazmorra. Permite este objeto en una zona de almacenamiento para que los colonos puedan llevar allí este tipo de botín.</DungeonLoot_Rare.description>
+  <DungeonUpgrade.label>mejora de mazmorra</DungeonUpgrade.label>
+  <DungeonUpgrade.description>Prepara un barril lleno de cerveza, mezclada con un poco de go-juice y espolvoreada con wake-up triturado.\n\nEste edificio aumenta de forma pasiva la velocidad a la que los colonos exploran una mazmorra, ya que beben un sorbo antes de entrar. Debe colocarse junto a una entrada de mazmorra. La bonificación solo se aplica una vez por entrada; varias mejoras no se acumulan.</DungeonUpgrade.description>
+  <UnfinishedTreasureMap.label>mapa de mazmorra</UnfinishedTreasureMap.label>
+  <UnfinishedTreasureMap.description>Este objeto sin terminar guarda el progreso de un colono en la mazmorra del 0 % al 100 %, para que no tenga que empezar de nuevo tras interrumpir una tarea de exploración. Cancelar este objeto reinicia el progreso.</UnfinishedTreasureMap.description>
+</LanguageData>

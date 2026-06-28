@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ScavengeDungeon_Random.label>Buscar botín aleatorio</ScavengeDungeon_Random.label>
+  <ScavengeDungeon_Random.description>Explora la mazmorra y recoge todo lo que encuentres hasta que no puedas cargar más. El inventario se llena rápidamente. En cuanto al valor obtenido por minuto, esta tarea es dos veces más eficiente que buscar objetos específicos. Produce botín aleatorio.</ScavengeDungeon_Random.description>
+  <ScavengeDungeon_Random.jobString>Buscando cualquier tipo de botín con el doble de eficiencia.</ScavengeDungeon_Random.jobString>
+  <ScavengeDungeon_Food.label>Buscar comida</ScavengeDungeon_Food.label>
+  <ScavengeDungeon_Food.description>Explora la mazmorra únicamente en busca de comida e ignora todos los demás objetos.</ScavengeDungeon_Food.description>
+  <ScavengeDungeon_Food.jobString>Buscando comida en la mazmorra.</ScavengeDungeon_Food.jobString>
+  <ScavengeDungeon_BuildingMaterials.label>Buscar materiales de construcción</ScavengeDungeon_BuildingMaterials.label>
+  <ScavengeDungeon_BuildingMaterials.description>Explora la mazmorra en busca de materiales de construcción, como bloques, minerales y madera.</ScavengeDungeon_BuildingMaterials.description>
+  <ScavengeDungeon_BuildingMaterials.jobString>Buscando materiales de construcción.</ScavengeDungeon_BuildingMaterials.jobString>
+  <ScavengeDungeon_CraftingMaterials.label>Buscar materiales de fabricación</ScavengeDungeon_CraftingMaterials.label>
+  <ScavengeDungeon_CraftingMaterials.description>Explora la mazmorra en busca de materiales de fabricación, como lana, cuero y minerales.</ScavengeDungeon_CraftingMaterials.description>
+  <ScavengeDungeon_CraftingMaterials.jobString>Buscando materiales de fabricación.</ScavengeDungeon_CraftingMaterials.jobString>
+  <ScavengeDungeon_WeaponsAmmo.label>Buscar armas y proyectiles</ScavengeDungeon_WeaponsAmmo.label>
+  <ScavengeDungeon_WeaponsAmmo.description>Explora la mazmorra en busca de armas y proyectiles.</ScavengeDungeon_WeaponsAmmo.description>
+  <ScavengeDungeon_WeaponsAmmo.jobString>Buscando armas y proyectiles.</ScavengeDungeon_WeaponsAmmo.jobString>
+  <ScavengeDungeon_Apparel.label>Buscar ropa y armaduras</ScavengeDungeon_Apparel.label>
+  <ScavengeDungeon_Apparel.description>Explora la mazmorra en busca de ropa y armaduras de cualquier nivel tecnológico.</ScavengeDungeon_Apparel.description>
+  <ScavengeDungeon_Apparel.jobString>Buscando ropa y armaduras.</ScavengeDungeon_Apparel.jobString>
+  <ScavengeDungeon_Medical.label>Buscar objetos médicos</ScavengeDungeon_Medical.label>
+  <ScavengeDungeon_Medical.description>Explora la mazmorra en busca de objetos médicos, como neutroamina, medicinas, implantes y partes artificiales del cuerpo.</ScavengeDungeon_Medical.description>
+  <ScavengeDungeon_Medical.jobString>Buscando objetos médicos.</ScavengeDungeon_Medical.jobString>
+  <ScavengeDungeon_Drugs.label>Buscar drogas</ScavengeDungeon_Drugs.label>
+  <ScavengeDungeon_Drugs.description>Explora la mazmorra en busca de drogas.</ScavengeDungeon_Drugs.description>
+  <ScavengeDungeon_Drugs.jobString>Buscando drogas.</ScavengeDungeon_Drugs.jobString>
+  <ScavengeDungeon_Rare.label>Buscar botín raro</ScavengeDungeon_Rare.label>
+  <ScavengeDungeon_Rare.description>Explora la mazmorra en busca de objetos raros y valiosos que son difíciles de obtener. Encontrarlos puede llevar mucho tiempo.</ScavengeDungeon_Rare.description>
+  <ScavengeDungeon_Rare.jobString>Buscando botín raro.</ScavengeDungeon_Rare.jobString>
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ScavengeDungeon_Random.label>Fouiller pour du butin aléatoire</ScavengeDungeon_Random.label>
+  <ScavengeDungeon_Random.description>Fouillez le donjon et ramassez tout ce que vous trouvez jusqu'à ne plus rien pouvoir porter. L'inventaire se remplit rapidement. En valeur gagnée par minute, cette activité est deux fois plus efficace que la recherche d'objets précis. Produit du butin aléatoire.</ScavengeDungeon_Random.description>
+  <ScavengeDungeon_Random.jobString>Fouille à la recherche de tout type de butin avec une efficacité doublée.</ScavengeDungeon_Random.jobString>
+  <ScavengeDungeon_Food.label>Fouiller pour de la nourriture</ScavengeDungeon_Food.label>
+  <ScavengeDungeon_Food.description>Fouillez le donjon uniquement pour de la nourriture comestible en ignorant tous les autres objets.</ScavengeDungeon_Food.description>
+  <ScavengeDungeon_Food.jobString>Fouille le donjon pour de la nourriture.</ScavengeDungeon_Food.jobString>
+  <ScavengeDungeon_BuildingMaterials.label>Fouiller pour des matériaux de construction</ScavengeDungeon_BuildingMaterials.label>
+  <ScavengeDungeon_BuildingMaterials.description>Fouillez le donjon pour des matériaux de construction tels que des blocs, des minerais et du bois.</ScavengeDungeon_BuildingMaterials.description>
+  <ScavengeDungeon_BuildingMaterials.jobString>Fouille pour des matériaux de construction.</ScavengeDungeon_BuildingMaterials.jobString>
+  <ScavengeDungeon_CraftingMaterials.label>Fouiller pour des matériaux d'artisanat</ScavengeDungeon_CraftingMaterials.label>
+  <ScavengeDungeon_CraftingMaterials.description>Fouillez le donjon pour des matériaux d'artisanat tels que de la laine, du cuir et des minerais.</ScavengeDungeon_CraftingMaterials.description>
+  <ScavengeDungeon_CraftingMaterials.jobString>Fouille pour des matériaux d'artisanat.</ScavengeDungeon_CraftingMaterials.jobString>
+  <ScavengeDungeon_WeaponsAmmo.label>Fouiller pour des armes et obus</ScavengeDungeon_WeaponsAmmo.label>
+  <ScavengeDungeon_WeaponsAmmo.description>Fouillez le donjon pour des armes et des obus.</ScavengeDungeon_WeaponsAmmo.description>
+  <ScavengeDungeon_WeaponsAmmo.jobString>Fouille pour des armes et des obus.</ScavengeDungeon_WeaponsAmmo.jobString>
+  <ScavengeDungeon_Apparel.label>Fouiller pour des vêtements et armures</ScavengeDungeon_Apparel.label>
+  <ScavengeDungeon_Apparel.description>Fouillez le donjon pour des vêtements et des armures de tout niveau technologique.</ScavengeDungeon_Apparel.description>
+  <ScavengeDungeon_Apparel.jobString>Fouille pour des vêtements et des armures.</ScavengeDungeon_Apparel.jobString>
+  <ScavengeDungeon_Medical.label>Fouiller pour du matériel médical</ScavengeDungeon_Medical.label>
+  <ScavengeDungeon_Medical.description>Fouillez le donjon pour du matériel médical tel que de la neutroamine, des médicaments, des implants et des parties du corps artificielles.</ScavengeDungeon_Medical.description>
+  <ScavengeDungeon_Medical.jobString>Fouille pour du matériel médical.</ScavengeDungeon_Medical.jobString>
+  <ScavengeDungeon_Drugs.label>Fouiller pour des drogues</ScavengeDungeon_Drugs.label>
+  <ScavengeDungeon_Drugs.description>Fouillez le donjon pour des drogues.</ScavengeDungeon_Drugs.description>
+  <ScavengeDungeon_Drugs.jobString>Fouille pour des drogues.</ScavengeDungeon_Drugs.jobString>
+  <ScavengeDungeon_Rare.label>Fouiller pour du butin rare</ScavengeDungeon_Rare.label>
+  <ScavengeDungeon_Rare.description>Fouillez le donjon pour des objets rares et précieux difficiles à obtenir. La recherche d'objets rares peut prendre beaucoup de temps.</ScavengeDungeon_Rare.description>
+  <ScavengeDungeon_Rare.jobString>Fouille pour du butin rare.</ScavengeDungeon_Rare.jobString>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DungeonSpeed.label>velocidad en mazmorras</DungeonSpeed.label>
+  <DungeonSpeed.description>La velocidad a la que esta persona puede recorrer una mazmorra.\n\nA medida que aumenta su nivel de Intelectual, mejora el rendimiento de la mazmorra porque puede explorar zonas más profundas con más botín, pero la velocidad disminuye porque saquear mazmorras de mayor nivel lleva más tiempo. Aun así, el valor medio obtenido respecto al tiempo invertido es mejor en los niveles altos.\n\nLa velocidad puede mejorarse construyendo mejoras de mazmorra de la categoría Miscelánea.</DungeonSpeed.description>
+  <DungeonYield.label>rendimiento de mazmorra</DungeonYield.label>
+  <DungeonYield.description>La cantidad de botín que esta persona puede encontrar en las mazmorras.\n\nA medida que aumenta su nivel de Intelectual, mejora el rendimiento de la mazmorra porque puede explorar zonas más profundas con más botín, pero la velocidad disminuye porque saquear mazmorras de mayor nivel lleva más tiempo. Aun así, el valor medio obtenido respecto al tiempo invertido es mejor en los niveles altos.</DungeonYield.description>
+</LanguageData>

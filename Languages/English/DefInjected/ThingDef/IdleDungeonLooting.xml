@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dungeon.label>dungeon entrance</Dungeon.label>
+  <Dungeon.description>There was once an underground civilization living deep below the surface. But they are all gone now. What happened to them? Who knows, but one thing is certain: they left a lot of loot down there.\n\nBuild a tunnel leading to a vast network of dungeons hidden below the surface and scavenge their treasures.</Dungeon.description>
+  <DungeonLoot_Random.label>random loot</DungeonLoot_Random.label>
+  <DungeonLoot_Food.label>food</DungeonLoot_Food.label>
+  <DungeonLoot_BuildingMaterials.label>building materials</DungeonLoot_BuildingMaterials.label>
+  <DungeonLoot_CraftingMaterials.label>crafting materials</DungeonLoot_CraftingMaterials.label>
+  <DungeonLoot_Weapons.label>weapons and ammunition</DungeonLoot_Weapons.label>
+  <DungeonLoot_Apparel.label>apparel</DungeonLoot_Apparel.label>
+  <DungeonLoot_Medical.label>medical items</DungeonLoot_Medical.label>
+  <DungeonLoot_Drugs.label>drugs</DungeonLoot_Drugs.label>
+  <DungeonLoot_Rare.label>rare items</DungeonLoot_Rare.label>
+  <DungeonLoot_Random.description>Random loot found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_Random.description>
+  <DungeonLoot_Food.description>Food found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_Food.description>
+  <DungeonLoot_BuildingMaterials.description>Building materials found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_BuildingMaterials.description>
+  <DungeonLoot_CraftingMaterials.description>Crafting materials found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_CraftingMaterials.description>
+  <DungeonLoot_Weapons.description>Weapons and ammunition found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_Weapons.description>
+  <DungeonLoot_Apparel.description>Apparel found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_Apparel.description>
+  <DungeonLoot_Medical.description>Medical items found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_Medical.description>
+  <DungeonLoot_Drugs.description>Drugs found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_Drugs.description>
+  <DungeonLoot_Rare.description>Rare items found in a dungeon. Allow this item in a stockpile zone so pawns can deliver this type of loot there.</DungeonLoot_Rare.description>
+  <DungeonUpgrade.label>dungeon upgrade</DungeonUpgrade.label>
+  <DungeonUpgrade.description>Set up a keg filled with beer, mixed with a little go-juice and sprinkled with crushed wake-up.\n\nThis building passively increases the speed at which pawns can clear a dungeon, as they take a sip before entering. It must be placed directly adjacent to a dungeon entrance. The bonus applies only once per dungeon entrance; multiple upgrades do not stack.</DungeonUpgrade.description>
+  <UnfinishedTreasureMap.label>dungeon map</UnfinishedTreasureMap.label>
+  <UnfinishedTreasureMap.description>This unfinished item tracks a pawn's dungeon progress from 0% to 100%, so the pawn does not have to start over after interrupting a scavenging bill. Canceling this item resets the pawn's dungeon progress.</UnfinishedTreasureMap.description>
+</LanguageData>

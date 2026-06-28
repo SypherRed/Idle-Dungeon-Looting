@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DungeonSpeed.label>Dungeon-Geschwindigkeit</DungeonSpeed.label>
+  <DungeonSpeed.description>Die Geschwindigkeit, mit der diese Person einen Dungeon durchqueren kann.\n\nMit zunehmender Intelligenz steigt der Dungeon-Ertrag, da die Person tiefere Dungeons mit mehr Beute erkunden kann. Gleichzeitig sinkt die Dungeon-Geschwindigkeit, weil das Plündern anspruchsvollerer Dungeons länger dauert. Der durchschnittliche Wertgewinn im Verhältnis zur benötigten Zeit ist auf höheren Stufen dennoch besser.\n\nDie Dungeon-Geschwindigkeit kann durch Dungeon-Verbesserungen aus der Kategorie Verschiedenes erhöht werden.</DungeonSpeed.description>
+  <DungeonYield.label>Dungeon-Ertrag</DungeonYield.label>
+  <DungeonYield.description>Die Menge an Beute, die diese Person in Dungeons finden kann.\n\nMit zunehmender Intelligenz steigt der Dungeon-Ertrag, da die Person tiefere Dungeons mit mehr Beute erkunden kann. Gleichzeitig sinkt die Dungeon-Geschwindigkeit, weil das Plündern anspruchsvollerer Dungeons länger dauert. Der durchschnittliche Wertgewinn im Verhältnis zur benötigten Zeit ist auf höheren Stufen dennoch besser.</DungeonYield.description>
+</LanguageData>

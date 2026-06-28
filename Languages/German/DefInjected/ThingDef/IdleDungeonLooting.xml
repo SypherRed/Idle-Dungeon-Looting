@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dungeon.label>Dungeon-Eingang</Dungeon.label>
+  <Dungeon.description>Einst lebte tief unter der Oberfläche eine unterirdische Zivilisation. Doch nun sind alle verschwunden. Was ist mit ihnen geschehen? Niemand weiß es, aber eines ist sicher: Sie haben dort unten jede Menge Beute zurückgelassen.\n\nBaue einen Tunnel zu einem gewaltigen Netzwerk verborgener Dungeons und plündere ihre Schätze.</Dungeon.description>
+  <DungeonLoot_Random.label>zufällige Beute</DungeonLoot_Random.label>
+  <DungeonLoot_Food.label>Nahrung</DungeonLoot_Food.label>
+  <DungeonLoot_BuildingMaterials.label>Baumaterialien</DungeonLoot_BuildingMaterials.label>
+  <DungeonLoot_CraftingMaterials.label>Handwerksmaterialien</DungeonLoot_CraftingMaterials.label>
+  <DungeonLoot_Weapons.label>Waffen und Munition</DungeonLoot_Weapons.label>
+  <DungeonLoot_Apparel.label>Kleidung</DungeonLoot_Apparel.label>
+  <DungeonLoot_Medical.label>medizinische Gegenstände</DungeonLoot_Medical.label>
+  <DungeonLoot_Drugs.label>Drogen</DungeonLoot_Drugs.label>
+  <DungeonLoot_Rare.label>seltene Gegenstände</DungeonLoot_Rare.label>
+  <DungeonLoot_Random.description>Zufällige Beute aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_Random.description>
+  <DungeonLoot_Food.description>Nahrung aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_Food.description>
+  <DungeonLoot_BuildingMaterials.description>Baumaterialien aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_BuildingMaterials.description>
+  <DungeonLoot_CraftingMaterials.description>Handwerksmaterialien aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_CraftingMaterials.description>
+  <DungeonLoot_Weapons.description>Waffen und Munition aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_Weapons.description>
+  <DungeonLoot_Apparel.description>Kleidung aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_Apparel.description>
+  <DungeonLoot_Medical.description>Medizinische Gegenstände aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_Medical.description>
+  <DungeonLoot_Drugs.description>Drogen aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_Drugs.description>
+  <DungeonLoot_Rare.description>Seltene Gegenstände aus einem Dungeon. Erlaube diesen Gegenstand in einer Lagerzone, damit Kolonisten diese Art Beute dorthin bringen können.</DungeonLoot_Rare.description>
+  <DungeonUpgrade.label>Dungeon-Verbesserung</DungeonUpgrade.label>
+  <DungeonUpgrade.description>Stelle ein Fass mit Bier auf, das mit etwas Go-Saft versetzt und mit zerstoßenem Wachmacher bestreut wurde.\n\nDieses Gebäude erhöht passiv die Geschwindigkeit, mit der Kolonisten einen Dungeon räumen können, da sie vor dem Betreten einen Schluck nehmen. Es muss direkt neben einem Dungeon-Eingang stehen. Der Bonus gilt für jeden Dungeon-Eingang nur einmal; mehrere Verbesserungen sind nicht kumulativ.</DungeonUpgrade.description>
+  <UnfinishedTreasureMap.label>Dungeon-Karte</UnfinishedTreasureMap.label>
+  <UnfinishedTreasureMap.description>Dieser unfertige Gegenstand speichert den Fortschritt eines Kolonisten im Dungeon von 0 % bis 100 %, sodass er nach einer Unterbrechung des Auftrags nicht von vorn beginnen muss. Wird der Gegenstand abgebrochen, geht der Dungeon-Fortschritt verloren.</UnfinishedTreasureMap.description>
+</LanguageData>

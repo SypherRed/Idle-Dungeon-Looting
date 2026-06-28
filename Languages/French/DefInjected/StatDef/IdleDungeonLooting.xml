@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DungeonSpeed.label>vitesse d'exploration du donjon</DungeonSpeed.label>
+  <DungeonSpeed.description>La vitesse à laquelle cette personne peut parcourir un donjon.\n\nLorsque son niveau d'Intellect augmente, le rendement du donjon s'améliore, car elle peut explorer des donjons plus profonds contenant davantage de butin. En revanche, sa vitesse diminue, car ces donjons prennent plus de temps à piller. Le gain moyen de richesse par rapport au temps passé reste toutefois meilleur aux niveaux élevés.\n\nLa vitesse peut être améliorée en construisant des améliorations de donjon dans la catégorie Divers.</DungeonSpeed.description>
+  <DungeonYield.label>rendement du donjon</DungeonYield.label>
+  <DungeonYield.description>La quantité de butin que cette personne peut trouver dans les donjons.\n\nLorsque son niveau d'Intellect augmente, le rendement du donjon s'améliore, car elle peut explorer des donjons plus profonds contenant davantage de butin. En revanche, sa vitesse diminue, car ces donjons prennent plus de temps à piller. Le gain moyen de richesse par rapport au temps passé reste toutefois meilleur aux niveaux élevés.</DungeonYield.description>
+</LanguageData>
