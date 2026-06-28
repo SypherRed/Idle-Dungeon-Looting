@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <ScavengeDungeon.label>Verlies durchsuchen</ScavengeDungeon.label>
+  <ScavengeDungeon.label>Dungeon durchsuchen</ScavengeDungeon.label>
   <ScavengeDungeon.verb>durchsuchen</ScavengeDungeon.verb>
   <ScavengeDungeon.gerund>durchsucht</ScavengeDungeon.gerund>
 </LanguageData>
