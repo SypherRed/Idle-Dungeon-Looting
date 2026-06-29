@@ -9,6 +9,10 @@
   <IDL_Settings_SearchDuration>Duración de búsqueda</IDL_Settings_SearchDuration>
   <IDL_Settings_SearchDurationTooltip>Los valores altos alargan la exploración de la mazmorra. Los valores bajos la acortan y aumentan los posibles beneficios por unidad de tiempo.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Restablecer ajustes globales</IDL_Settings_ResetGlobal>
+  <IDL_Settings_InfestationsEnabled>Activar infestaciones de insectos</IDL_Settings_InfestationsEnabled>
+  <IDL_Settings_InfestationsEnabledTooltip>Permite que las entradas de mazmorra activen el evento de infestación por perforación profunda de RimWorld. Esta opción está activada de forma predeterminada. Al desactivarla, las entradas no pueden provocar infestaciones.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationChance>Probabilidad de infestación</IDL_Settings_InfestationChance>
+  <IDL_Settings_InfestationChanceTooltip>Ajusta la probabilidad de infestación existente de RimWorld para las entradas de mazmorra. 100 % conserva la probabilidad original, 50 % la reduce a la mitad y 0 % impide las infestaciones causadas por las entradas. No es una probabilidad garantizada por tarea de exploración.</IDL_Settings_InfestationChanceTooltip>
   <IDL_Settings_AllowDuplicates>Permitir objetos repetidos en un mismo botín</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Cuando está activado, el mismo tipo de objeto puede seleccionarse varias veces en un único resultado. Desactívalo para obtener un botín más variado.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Multiplicadores de botín por categoría</IDL_Settings_CategoryMultipliers>

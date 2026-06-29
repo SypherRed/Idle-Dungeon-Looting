@@ -9,6 +9,10 @@
   <IDL_Settings_SearchDuration>Search duration</IDL_Settings_SearchDuration>
   <IDL_Settings_SearchDurationTooltip>Higher values make dungeon searches take longer. Lower values shorten searches and increase the potential profit per unit of time.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Reset global settings</IDL_Settings_ResetGlobal>
+  <IDL_Settings_InfestationsEnabled>Enable insect infestations</IDL_Settings_InfestationsEnabled>
+  <IDL_Settings_InfestationsEnabledTooltip>Allows dungeon entrances to trigger RimWorld's deep-drill infestation event. This is enabled by default. Disabling it prevents dungeon entrances from causing insect infestations.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationChance>Infestation chance</IDL_Settings_InfestationChance>
+  <IDL_Settings_InfestationChanceTooltip>Scales the existing RimWorld infestation chance for dungeon entrances. 100% preserves the original chance, 50% halves it, and 0% prevents dungeon entrances from causing infestations. This is not a guaranteed chance per scavenging job.</IDL_Settings_InfestationChanceTooltip>
   <IDL_Settings_AllowDuplicates>Allow duplicate items in one loot result</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>When enabled, the same item type can be selected more than once during a single loot result. Disable this for more varied loot.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Loot multipliers by category</IDL_Settings_CategoryMultipliers>

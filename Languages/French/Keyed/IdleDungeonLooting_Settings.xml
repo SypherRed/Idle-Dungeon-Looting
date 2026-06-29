@@ -9,6 +9,10 @@
   <IDL_Settings_SearchDuration>Durée de recherche</IDL_Settings_SearchDuration>
   <IDL_Settings_SearchDurationTooltip>Les valeurs élevées allongent l'exploration du donjon. Les valeurs faibles la raccourcissent et augmentent ainsi les bénéfices potentiels par unité de temps.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Réinitialiser les paramètres globaux</IDL_Settings_ResetGlobal>
+  <IDL_Settings_InfestationsEnabled>Activer les infestations d'insectes</IDL_Settings_InfestationsEnabled>
+  <IDL_Settings_InfestationsEnabledTooltip>Permet aux entrées de donjon de déclencher l'événement d'infestation lié aux forages profonds de RimWorld. Cette option est activée par défaut. La désactiver empêche les entrées de donjon de provoquer des infestations.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationChance>Probabilité d'infestation</IDL_Settings_InfestationChance>
+  <IDL_Settings_InfestationChanceTooltip>Ajuste la probabilité d'infestation existante de RimWorld pour les entrées de donjon. 100 % conserve la probabilité d'origine, 50 % la divise par deux et 0 % empêche les infestations causées par les entrées. Il ne s'agit pas d'une probabilité garantie par tâche d'exploration.</IDL_Settings_InfestationChanceTooltip>
   <IDL_Settings_AllowDuplicates>Autoriser les objets identiques dans un même butin</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Lorsque cette option est activée, un même type d'objet peut être sélectionné plusieurs fois dans un seul résultat. Désactivez-la pour obtenir un butin plus varié.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Multiplicateurs de butin par catégorie</IDL_Settings_CategoryMultipliers>

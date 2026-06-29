@@ -9,6 +9,10 @@
   <IDL_Settings_SearchDuration>Suchdauer</IDL_Settings_SearchDuration>
   <IDL_Settings_SearchDurationTooltip>Höhere Werte verlängern die Suche im Dungeon. Kleinere Werte verkürzen die Suche und erhöhen dadurch den möglichen Gewinn pro Zeiteinheit.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Globale Einstellungen zurücksetzen</IDL_Settings_ResetGlobal>
+  <IDL_Settings_InfestationsEnabled>Insektenbefälle aktivieren</IDL_Settings_InfestationsEnabled>
+  <IDL_Settings_InfestationsEnabledTooltip>Erlaubt Dungeon-Eingängen, RimWorlds Befallsereignis für Tiefenbohrer auszulösen. Diese Option ist standardmäßig aktiviert. Wird sie deaktiviert, können Dungeon-Eingänge keine Insektenbefälle mehr verursachen.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationChance>Befallswahrscheinlichkeit</IDL_Settings_InfestationChance>
+  <IDL_Settings_InfestationChanceTooltip>Skaliert die bestehende RimWorld-Befallswahrscheinlichkeit für Dungeon-Eingänge. 100 % behält die ursprüngliche Wahrscheinlichkeit bei, 50 % halbiert sie und 0 % verhindert Befälle durch Dungeon-Eingänge. Dies ist keine garantierte Wahrscheinlichkeit pro Suchauftrag.</IDL_Settings_InfestationChanceTooltip>
   <IDL_Settings_AllowDuplicates>Doppelte Gegenstände in einem Beuteergebnis erlauben</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Wenn aktiviert, kann dieselbe Gegenstandsart in einem einzelnen Beuteergebnis mehrfach ausgewählt werden. Deaktivieren sorgt für abwechslungsreichere Beute.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Beutemultiplikatoren nach Kategorie</IDL_Settings_CategoryMultipliers>
