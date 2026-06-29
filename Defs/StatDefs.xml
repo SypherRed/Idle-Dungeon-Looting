@@ -8,6 +8,7 @@
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.01</minValue>
+    <neverDisabled>true</neverDisabled>
     <toStringStyle>PercentZero</toStringStyle>
     <statFactors>
       <li>WorkSpeedGlobal</li>
@@ -64,6 +65,7 @@
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.1</minValue>
+    <neverDisabled>true</neverDisabled>
     <toStringStyle>PercentZero</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
