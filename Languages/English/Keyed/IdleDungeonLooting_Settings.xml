@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IDL_Settings_Global>Global</IDL_Settings_Global>
+  <IDL_Settings_Advanced>Advanced</IDL_Settings_Advanced>
+  <IDL_Settings_LootAmount>Loot rolls</IDL_Settings_LootAmount>
+  <IDL_Settings_LootAmountTooltip>Higher values produce more loot rolls and therefore more profit. Lower values produce fewer rolls and less profit. Values below 1x use a proportional chance for a roll to produce no loot.</IDL_Settings_LootAmountTooltip>
+  <IDL_Settings_ItemAmount>Items per roll</IDL_Settings_ItemAmount>
+  <IDL_Settings_ItemAmountTooltip>Higher values increase the number of items produced by each successful loot roll. Lower values reduce the item count and expected profit.</IDL_Settings_ItemAmountTooltip>
+  <IDL_Settings_SearchDuration>Search duration</IDL_Settings_SearchDuration>
+  <IDL_Settings_SearchDurationTooltip>Higher values make dungeon searches take longer. Lower values shorten searches and increase the potential profit per unit of time.</IDL_Settings_SearchDurationTooltip>
+  <IDL_Settings_ResetGlobal>Reset global settings</IDL_Settings_ResetGlobal>
+  <IDL_Settings_AllowDuplicates>Allow duplicate items in one loot result</IDL_Settings_AllowDuplicates>
+  <IDL_Settings_AllowDuplicatesTooltip>When enabled, the same item type can be selected more than once during a single loot result. Disable this for more varied loot.</IDL_Settings_AllowDuplicatesTooltip>
+  <IDL_Settings_CategoryMultipliers>Loot multipliers by category</IDL_Settings_CategoryMultipliers>
+  <IDL_Settings_CategoryTooltip>Higher values increase loot and expected profit for this category. Lower values reduce both. Setting this to 0x disables loot from the category.</IDL_Settings_CategoryTooltip>
+  <IDL_Settings_Random>Random loot</IDL_Settings_Random>
+  <IDL_Settings_Food>Food</IDL_Settings_Food>
+  <IDL_Settings_BuildingMaterials>Building materials</IDL_Settings_BuildingMaterials>
+  <IDL_Settings_CraftingMaterials>Crafting materials</IDL_Settings_CraftingMaterials>
+  <IDL_Settings_Weapons>Weapons and ammunition</IDL_Settings_Weapons>
+  <IDL_Settings_Apparel>Apparel and armor</IDL_Settings_Apparel>
+  <IDL_Settings_Medical>Medical items</IDL_Settings_Medical>
+  <IDL_Settings_Drugs>Drugs</IDL_Settings_Drugs>
+  <IDL_Settings_Rare>Rare loot</IDL_Settings_Rare>
+  <IDL_Settings_ResetAdvanced>Reset advanced settings</IDL_Settings_ResetAdvanced>
+</LanguageData>

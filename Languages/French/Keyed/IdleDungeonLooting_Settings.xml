@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IDL_Settings_Global>Global</IDL_Settings_Global>
+  <IDL_Settings_Advanced>Avancé</IDL_Settings_Advanced>
+  <IDL_Settings_LootAmount>Tirages de butin</IDL_Settings_LootAmount>
+  <IDL_Settings_LootAmountTooltip>Les valeurs élevées produisent davantage de tirages et donc plus de bénéfices. Les valeurs faibles réduisent les tirages et les bénéfices. En dessous de 1x, chaque tirage a une chance proportionnelle de ne produire aucun butin.</IDL_Settings_LootAmountTooltip>
+  <IDL_Settings_ItemAmount>Objets par tirage</IDL_Settings_ItemAmount>
+  <IDL_Settings_ItemAmountTooltip>Les valeurs élevées augmentent le nombre d'objets obtenu à chaque tirage réussi. Les valeurs faibles réduisent la quantité d'objets et les bénéfices attendus.</IDL_Settings_ItemAmountTooltip>
+  <IDL_Settings_SearchDuration>Durée de recherche</IDL_Settings_SearchDuration>
+  <IDL_Settings_SearchDurationTooltip>Les valeurs élevées allongent l'exploration du donjon. Les valeurs faibles la raccourcissent et augmentent ainsi les bénéfices potentiels par unité de temps.</IDL_Settings_SearchDurationTooltip>
+  <IDL_Settings_ResetGlobal>Réinitialiser les paramètres globaux</IDL_Settings_ResetGlobal>
+  <IDL_Settings_AllowDuplicates>Autoriser les objets identiques dans un même butin</IDL_Settings_AllowDuplicates>
+  <IDL_Settings_AllowDuplicatesTooltip>Lorsque cette option est activée, un même type d'objet peut être sélectionné plusieurs fois dans un seul résultat. Désactivez-la pour obtenir un butin plus varié.</IDL_Settings_AllowDuplicatesTooltip>
+  <IDL_Settings_CategoryMultipliers>Multiplicateurs de butin par catégorie</IDL_Settings_CategoryMultipliers>
+  <IDL_Settings_CategoryTooltip>Les valeurs élevées augmentent le butin et les bénéfices attendus de cette catégorie. Les valeurs faibles réduisent les deux. À 0x, aucun butin de cette catégorie n'est produit.</IDL_Settings_CategoryTooltip>
+  <IDL_Settings_Random>Butin aléatoire</IDL_Settings_Random>
+  <IDL_Settings_Food>Nourriture</IDL_Settings_Food>
+  <IDL_Settings_BuildingMaterials>Matériaux de construction</IDL_Settings_BuildingMaterials>
+  <IDL_Settings_CraftingMaterials>Matériaux d'artisanat</IDL_Settings_CraftingMaterials>
+  <IDL_Settings_Weapons>Armes et munitions</IDL_Settings_Weapons>
+  <IDL_Settings_Apparel>Vêtements et armures</IDL_Settings_Apparel>
+  <IDL_Settings_Medical>Matériel médical</IDL_Settings_Medical>
+  <IDL_Settings_Drugs>Drogues</IDL_Settings_Drugs>
+  <IDL_Settings_Rare>Butin rare</IDL_Settings_Rare>
+  <IDL_Settings_ResetAdvanced>Réinitialiser les paramètres avancés</IDL_Settings_ResetAdvanced>
+</LanguageData>
