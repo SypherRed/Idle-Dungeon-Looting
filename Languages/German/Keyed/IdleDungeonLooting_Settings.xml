@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IDL_Settings_Global>Global</IDL_Settings_Global>
+  <IDL_Settings_Advanced>Erweitert</IDL_Settings_Advanced>
+  <IDL_Settings_LootAmount>Beutewürfe</IDL_Settings_LootAmount>
+  <IDL_Settings_LootAmountTooltip>Höhere Werte erzeugen mehr Beutewürfe und damit mehr Gewinn. Kleinere Werte erzeugen weniger Würfe und weniger Gewinn. Bei Werten unter 1x besteht eine entsprechende Chance, dass ein Wurf keine Beute erzeugt.</IDL_Settings_LootAmountTooltip>
+  <IDL_Settings_ItemAmount>Gegenstände pro Wurf</IDL_Settings_ItemAmount>
+  <IDL_Settings_ItemAmountTooltip>Höhere Werte erhöhen die Anzahl der Gegenstände pro erfolgreichem Beutewurf. Kleinere Werte verringern die Gegenstandsmenge und den erwarteten Gewinn.</IDL_Settings_ItemAmountTooltip>
+  <IDL_Settings_SearchDuration>Suchdauer</IDL_Settings_SearchDuration>
+  <IDL_Settings_SearchDurationTooltip>Höhere Werte verlängern die Suche im Dungeon. Kleinere Werte verkürzen die Suche und erhöhen dadurch den möglichen Gewinn pro Zeiteinheit.</IDL_Settings_SearchDurationTooltip>
+  <IDL_Settings_ResetGlobal>Globale Einstellungen zurücksetzen</IDL_Settings_ResetGlobal>
+  <IDL_Settings_InfestationsEnabled>Insektenbefälle aktivieren</IDL_Settings_InfestationsEnabled>
+  <IDL_Settings_InfestationsEnabledTooltip>Erlaubt Dungeon-Eingängen, RimWorlds Befallsereignis für Tiefenbohrer auszulösen. Diese Option ist standardmäßig aktiviert. Wird sie deaktiviert, können Dungeon-Eingänge keine Insektenbefälle mehr verursachen.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationChance>Befallswahrscheinlichkeit</IDL_Settings_InfestationChance>
+  <IDL_Settings_InfestationChanceTooltip>Skaliert die bestehende RimWorld-Befallswahrscheinlichkeit für Dungeon-Eingänge. 100 % behält die ursprüngliche Wahrscheinlichkeit bei, 50 % halbiert sie und 0 % verhindert Befälle durch Dungeon-Eingänge. Dies ist keine garantierte Wahrscheinlichkeit pro Suchauftrag.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_AllowDuplicates>Doppelte Gegenstände in einem Beuteergebnis erlauben</IDL_Settings_AllowDuplicates>
+  <IDL_Settings_AllowDuplicatesTooltip>Wenn aktiviert, kann dieselbe Gegenstandsart in einem einzelnen Beuteergebnis mehrfach ausgewählt werden. Deaktivieren sorgt für abwechslungsreichere Beute.</IDL_Settings_AllowDuplicatesTooltip>
+  <IDL_Settings_CategoryMultipliers>Beutemultiplikatoren nach Kategorie</IDL_Settings_CategoryMultipliers>
+  <IDL_Settings_CategoryTooltip>Höhere Werte erhöhen die Beute und den erwarteten Gewinn dieser Kategorie. Kleinere Werte verringern beides. Bei 0x wird keine Beute dieser Kategorie erzeugt.</IDL_Settings_CategoryTooltip>
+  <IDL_Settings_Random>Zufällige Beute</IDL_Settings_Random>
+  <IDL_Settings_Food>Nahrung</IDL_Settings_Food>
+  <IDL_Settings_BuildingMaterials>Baumaterialien</IDL_Settings_BuildingMaterials>
+  <IDL_Settings_CraftingMaterials>Handwerksmaterialien</IDL_Settings_CraftingMaterials>
+  <IDL_Settings_Weapons>Waffen und Munition</IDL_Settings_Weapons>
+  <IDL_Settings_Apparel>Kleidung und Rüstung</IDL_Settings_Apparel>
+  <IDL_Settings_Medical>Medizinische Gegenstände</IDL_Settings_Medical>
+  <IDL_Settings_Drugs>Drogen</IDL_Settings_Drugs>
+  <IDL_Settings_Rare>Seltene Beute</IDL_Settings_Rare>
+  <IDL_Settings_ResetAdvanced>Erweiterte Einstellungen zurücksetzen</IDL_Settings_ResetAdvanced>
+</LanguageData>
