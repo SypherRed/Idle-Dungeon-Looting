@@ -10,18 +10,33 @@
   <IDL_Settings_SearchDurationTooltip>Les valeurs élevées allongent l'exploration du donjon. Les valeurs faibles la raccourcissent et augmentent ainsi les bénéfices potentiels par unité de temps.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Réinitialiser les paramètres globaux</IDL_Settings_ResetGlobal>
   <IDL_Settings_InfestationsEnabled>Activer les infestations d'insectes</IDL_Settings_InfestationsEnabled>
-  <IDL_Settings_InfestationsEnabledTooltip>Permet aux entrées de donjon de déclencher l'événement d'infestation lié aux forages profonds de RimWorld. Cette option est activée par défaut. La désactiver empêche les entrées de donjon de provoquer des infestations.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationsEnabledTooltip>Inclut les infestations dans le jet commun des menaces du donjon. Désactiver cette option empêche les entrées de donjon de provoquer des infestations.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Probabilité d'infestation</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Ajuste la probabilité d'infestation existante de RimWorld pour les entrées de donjon. 100 % conserve la probabilité d'origine, 50 % la divise par deux et 0 % empêche les infestations causées par les entrées. Il ne s'agit pas d'une probabilité garantie par tâche d'exploration.</IDL_Settings_InfestationChanceTooltip>
   <IDL_Settings_DungeonThreatsHeader>Menaces du donjon</IDL_Settings_DungeonThreatsHeader>
   <IDL_Settings_DungeonThreatsEnabled>Activer les menaces du donjon</IDL_Settings_DungeonThreatsEnabled>
-  <IDL_Settings_DungeonThreatsEnabledTooltip>Permet aux tâches de donjon terminées de déclencher une attaque de pillards ou une rencontre d'entités. Les infestations conservent leur propre probabilité, mais partagent le même délai.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Active le jet commun de menace après chaque tâche de donjon terminée. Les infestations, les pillards et les entités utilisent tous ce jet et son délai.</IDL_Settings_DungeonThreatsEnabledTooltip>
   <IDL_Settings_RaiderThreatsEnabled>Activer les pillards</IDL_Settings_RaiderThreatsEnabled>
   <IDL_Settings_RaiderThreatsEnabledTooltip>Permet aux tâches de donjon terminées d'attirer une attaque hostile dont la puissance dépend des points de menace actuels du conteur.</IDL_Settings_RaiderThreatsEnabledTooltip>
   <IDL_Settings_EntityThreatsEnabled>Activer les shamblers et les goules</IDL_Settings_EntityThreatsEnabled>
   <IDL_Settings_EntityThreatsEnabledTooltip>Permet une rencontre Anomaly contenant uniquement des shamblers, uniquement des goules ou un mélange aléatoire des deux.</IDL_Settings_EntityThreatsEnabledTooltip>
-  <IDL_Settings_DungeonThreatChance>Probabilité de rencontre</IDL_Settings_DungeonThreatChance>
-  <IDL_Settings_DungeonThreatChanceTooltip>Probabilité qu'une tâche de donjon terminée déclenche une attaque ou une rencontre d'entités lorsque le délai commun est écoulé.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_InfestationWeight>Poids des infestations</IDL_Settings_InfestationWeight>
+  <IDL_Settings_RaiderWeight>Poids des pillards</IDL_Settings_RaiderWeight>
+  <IDL_Settings_EntityWeight>Poids des entités</IDL_Settings_EntityWeight>
+  <IDL_Settings_ThreatWeightTooltip>Probabilité relative que ce type d'événement soit sélectionné après un jet de menace réussi. Un poids de 0x l'exclut.</IDL_Settings_ThreatWeightTooltip>
+  <IDL_Settings_ThreatFormulaHeader>Formule de probabilité des menaces</IDL_Settings_ThreatFormulaHeader>
+  <IDL_Settings_DungeonThreatChance>Probabilité de base</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Probabilité initiale d'une menace après le délai. Un événement réussi réinitialise la probabilité accumulée à cette valeur.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_FailedRollBonus>Bonus par jet manqué</IDL_Settings_FailedRollBonus>
+  <IDL_Settings_FailedRollBonusTooltip>Points de pourcentage supplémentaires après chaque tâche de donjon terminée qui ne déclenche aucune menace.</IDL_Settings_FailedRollBonusTooltip>
+  <IDL_Settings_MaximumThreatChance>Probabilité maximale</IDL_Settings_MaximumThreatChance>
+  <IDL_Settings_MaximumThreatChanceTooltip>Limite supérieure de la probabilité finale après application de la difficulté, de la progression et des jets manqués.</IDL_Settings_MaximumThreatChanceTooltip>
+  <IDL_Settings_DifficultyInfluence>Influence de la difficulté</IDL_Settings_DifficultyInfluence>
+  <IDL_Settings_DifficultyInfluenceTooltip>Détermine dans quelle mesure la difficulté du conteur multiplie la probabilité de base accumulée. À 0x, elle n'a aucun effet.</IDL_Settings_DifficultyInfluenceTooltip>
+  <IDL_Settings_ProgressBonusMaximum>Bonus de progression maximal</IDL_Settings_ProgressBonusMaximum>
+  <IDL_Settings_ProgressBonusMaximumTooltip>Bonus additionnel maximal accordé par l'âge et la richesse de la colonie. Le bonus complet est atteint après 120 jours et avec 500 000 de richesse.</IDL_Settings_ProgressBonusMaximumTooltip>
+  <IDL_Settings_CurrentThreatChance>Probabilité actuellement calculée : {0}</IDL_Settings_CurrentThreatChance>
+  <IDL_Settings_FailedRolls>Jets manqués depuis la dernière menace : {0}</IDL_Settings_FailedRolls>
   <IDL_Settings_DungeonThreatStrength>Puissance de la menace</IDL_Settings_DungeonThreatStrength>
   <IDL_Settings_DungeonThreatStrengthTooltip>Multiplie les points de menace du conteur utilisés pour déterminer la taille des groupes de pillards et d'entités.</IDL_Settings_DungeonThreatStrengthTooltip>
   <IDL_Settings_DungeonThreatCooldown>Délai commun en jours</IDL_Settings_DungeonThreatCooldown>
