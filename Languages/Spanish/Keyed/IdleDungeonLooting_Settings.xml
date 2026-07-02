@@ -40,6 +40,16 @@
   <IDL_Settings_Drugs>Drogas</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Botín raro</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Restablecer ajustes avanzados</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Miradas codiciosas</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Los saqueadores se han enterado de la existencia de tu mazmorra y de los tesoros recuperados de sus profundidades. Atraídos por la promesa de riquezas fáciles, se acercan a la colonia. Prepárate para el ataque.</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Tus expediciones no han pasado desapercibidas. Unos saqueadores armados han seguido el rastro de los tesoros hasta tu colonia y ahora pretenden quedarse con las riquezas de la mazmorra.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Se han extendido rumores sobre una entrada a cámaras subterráneas aún intactas. Una banda de saqueadores ha venido para apoderarse de la mazmorra y de todo lo extraído de ella.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>El suelo tiembla</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>La expedición ha perturbado algo en las profundidades de la mazmorra. El suelo se resquebraja mientras unos insectos enfurecidos excavan hacia la superficie.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Las vibraciones de la mazmorra han alcanzado un nido oculto bajo tierra. Un repiqueteo asciende por los túneles y aumenta a cada segundo.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>Un antiguo pasadizo se ha derrumbado sobre una colmena de insectos. La progenie ha despertado, está furiosa y se abre paso hacia la entrada de la mazmorra.</IDL_Threat_InfestationLetterText_3>
   <IDL_Threat_EntitiesLetterLabel>Entidades de la mazmorra</IDL_Threat_EntitiesLetterLabel>
-  <IDL_Threat_EntitiesLetterText>La expedición ha perturbado a {0} shamblers y {1} ghouls. Han surgido cerca de la entrada de la mazmorra y están atacando la colonia.</IDL_Threat_EntitiesLetterText>
+  <IDL_Threat_EntitiesLetterText_1>La expedición ha perturbado a {0} shamblers y {1} ghouls. Han surgido cerca de la entrada de la mazmorra y están atacando la colonia.</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Pasos arrastrados y gruñidos salvajes resuenan desde las profundidades. {0} shamblers y {1} ghouls salen de la mazmorra impulsados por un hambre irracional.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Una cámara funeraria sellada ha sido abierta. La muerte se agita en la oscuridad mientras {0} shamblers y {1} ghouls se abren paso hacia la superficie.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>

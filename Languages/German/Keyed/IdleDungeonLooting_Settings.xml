@@ -40,6 +40,16 @@
   <IDL_Settings_Drugs>Drogen</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Seltene Beute</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Erweiterte Einstellungen zurücksetzen</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Gierige Blicke</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Plünderer sind auf deinen Dungeon und die Schätze aufmerksam geworden, die aus seinen Tiefen geborgen werden. In der Hoffnung auf leichte Beute nähern sie sich deiner Kolonie. Bereite dich auf einen Angriff vor!</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Deine Expeditionen sind nicht unbemerkt geblieben. Bewaffnete Plünderer sind der Spur der geborgenen Schätze bis zu deiner Kolonie gefolgt und wollen die Reichtümer des Dungeons nun an sich reißen.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Gerüchte über einen Zugang zu unberührten unterirdischen Gewölben haben sich verbreitet. Eine Gruppe Raider ist gekommen, um den Dungeon und alles, was aus ihm geborgen wurde, zu erbeuten.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>Der Boden bebt</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>Die Expedition hat tief unter dem Dungeon etwas aufgeschreckt. Der Boden bricht auf, während wütende Insekten zur Oberfläche graben.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Die Erschütterungen aus dem Dungeon haben ein tief verborgenes Nest erreicht. Aus den Tunneln dringt ein Zirpen, das mit jeder Sekunde lauter wird.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>Ein uralter Gang ist in einen Insektenbau eingebrochen. Die Brut ist erwacht, außer sich vor Wut und gräbt sich zum Dungeon-Eingang vor.</IDL_Threat_InfestationLetterText_3>
   <IDL_Threat_EntitiesLetterLabel>Entities aus dem Dungeon</IDL_Threat_EntitiesLetterLabel>
-  <IDL_Threat_EntitiesLetterText>Die Dungeon-Expedition hat {0} Shamblers und {1} Ghouls aufgeschreckt. Sie sind nahe dem Dungeon-Eingang hervorgebrochen und greifen die Kolonie an!</IDL_Threat_EntitiesLetterText>
+  <IDL_Threat_EntitiesLetterText_1>Die Expedition hat {0} Shamblers und {1} Ghouls aufgeschreckt. Sie sind nahe dem Dungeon-Eingang hervorgebrochen und greifen die Kolonie an!</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Schleifende Schritte und wildes Knurren hallen aus der Tiefe. {0} Shamblers und {1} Ghouls strömen aus dem Dungeon, getrieben von geistlosem Hunger.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Eine versiegelte Grabkammer wurde aufgebrochen. In der Dunkelheit regt sich totes Leben, während sich {0} Shamblers und {1} Ghouls ihren Weg zur Oberfläche bahnen.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>

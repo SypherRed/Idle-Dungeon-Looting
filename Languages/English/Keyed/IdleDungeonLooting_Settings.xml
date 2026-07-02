@@ -40,6 +40,16 @@
   <IDL_Settings_Drugs>Drugs</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Rare loot</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Reset advanced settings</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Greedy eyes</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Raiders have learned of your dungeon and the treasures recovered from its depths. Hoping for easy riches, they are approaching your colony. Prepare for an attack!</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Your expeditions have not gone unnoticed. Armed scavengers followed the trail of recovered treasure back to your colony and now intend to take the dungeon's riches for themselves.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Rumors of an entrance to untouched underground vaults have spread beyond the colony. A band of raiders has come to seize the dungeon and everything brought out of it.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>The ground trembles</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>The expedition disturbed something deep beneath the dungeon. The ground is splitting open as enraged insects tunnel toward the surface.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Vibrations from the dungeon have reached a nest hidden far below. Chittering echoes rise through the tunnels, growing louder by the second.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>An ancient passage has collapsed into an insect hive. The brood is awake, furious, and clawing its way toward the dungeon entrance.</IDL_Threat_InfestationLetterText_3>
   <IDL_Threat_EntitiesLetterLabel>Entities from the dungeon</IDL_Threat_EntitiesLetterLabel>
-  <IDL_Threat_EntitiesLetterText>The dungeon expedition has disturbed {0} shamblers and {1} ghouls. They have emerged near the dungeon entrance and are attacking the colony!</IDL_Threat_EntitiesLetterText>
+  <IDL_Threat_EntitiesLetterText_1>The expedition has disturbed {0} shamblers and {1} ghouls. They have emerged near the dungeon entrance and are attacking the colony!</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Dragging footsteps and feral growls echo from below. {0} shamblers and {1} ghouls spill out of the dungeon, driven by mindless hunger.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>A sealed burial chamber has been breached. Deadlife stirs in the darkness as {0} shamblers and {1} ghouls force their way toward the surface.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>

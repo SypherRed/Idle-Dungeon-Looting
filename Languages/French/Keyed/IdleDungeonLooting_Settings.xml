@@ -40,6 +40,16 @@
   <IDL_Settings_Drugs>Drogues</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Butin rare</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Réinitialiser les paramètres avancés</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Des regards avides</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Des pillards ont entendu parler de votre donjon et des trésors remontés de ses profondeurs. Attirés par la promesse de richesses faciles, ils approchent de la colonie. Préparez-vous à l'attaque !</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Vos expéditions ne sont pas passées inaperçues. Des pillards armés ont suivi la trace des trésors jusqu'à votre colonie et comptent désormais s'emparer des richesses du donjon.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Des rumeurs évoquant l'entrée de caveaux souterrains encore intacts se sont répandues. Une bande de pillards est venue prendre le donjon et tout ce qui en a été extrait.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>Le sol tremble</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>L'expédition a dérangé quelque chose dans les profondeurs du donjon. Le sol se fissure tandis que des insectes furieux creusent vers la surface.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Les vibrations du donjon ont atteint un nid enfoui loin sous terre. Des cliquetis montent des tunnels et deviennent plus forts à chaque seconde.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>Un ancien passage s'est effondré dans une ruche d'insectes. La couvée est éveillée, furieuse, et se fraye un chemin vers l'entrée du donjon.</IDL_Threat_InfestationLetterText_3>
   <IDL_Threat_EntitiesLetterLabel>Entités du donjon</IDL_Threat_EntitiesLetterLabel>
-  <IDL_Threat_EntitiesLetterText>L'expédition a dérangé {0} shamblers et {1} goules. Ils ont surgi près de l'entrée du donjon et attaquent la colonie !</IDL_Threat_EntitiesLetterText>
+  <IDL_Threat_EntitiesLetterText_1>L'expédition a dérangé {0} shamblers et {1} goules. Ils ont surgi près de l'entrée du donjon et attaquent la colonie !</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Des pas traînants et des grognements sauvages résonnent depuis les profondeurs. {0} shamblers et {1} goules jaillissent du donjon, poussés par une faim aveugle.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Une chambre funéraire scellée a été éventrée. La mort s'agite dans l'obscurité tandis que {0} shamblers et {1} goules se frayent un chemin vers la surface.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>
