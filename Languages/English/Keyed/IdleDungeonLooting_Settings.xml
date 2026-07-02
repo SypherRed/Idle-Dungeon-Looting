@@ -13,6 +13,19 @@
   <IDL_Settings_InfestationsEnabledTooltip>Allows dungeon entrances to trigger RimWorld's deep-drill infestation event. This is enabled by default. Disabling it prevents dungeon entrances from causing insect infestations.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Infestation chance</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Scales the existing RimWorld infestation chance for dungeon entrances. 100% preserves the original chance, 50% halves it, and 0% prevents dungeon entrances from causing infestations. This is not a guaranteed chance per scavenging job.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Dungeon threats</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Enable dungeon threats</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Allows completed dungeon jobs to trigger raider or entity encounters. Infestations retain their separate chance but share the same cooldown.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Enable raiders</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Allows completed dungeon jobs to attract a hostile raid scaled by the storyteller's current threat points.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Enable shamblers and ghouls</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Allows an Anomaly encounter containing only shamblers, only ghouls, or a random mixture of both.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_DungeonThreatChance>Encounter chance</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Chance that a completed dungeon job triggers a raid or entity encounter when the shared cooldown is ready.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_DungeonThreatStrength>Threat strength</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multiplies the storyteller threat points used to determine raider and entity group sizes.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Shared cooldown in days</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Minimum number of in-game days after an infestation, entity encounter, or raid before any of these dungeon threats can occur again.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Allow duplicate items in one loot result</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>When enabled, the same item type can be selected more than once during a single loot result. Disable this for more varied loot.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Loot multipliers by category</IDL_Settings_CategoryMultipliers>
@@ -27,4 +40,6 @@
   <IDL_Settings_Drugs>Drugs</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Rare loot</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Reset advanced settings</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_EntitiesLetterLabel>Entities from the dungeon</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText>The dungeon expedition has disturbed {0} shamblers and {1} ghouls. They have emerged near the dungeon entrance and are attacking the colony!</IDL_Threat_EntitiesLetterText>
 </LanguageData>

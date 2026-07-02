@@ -13,6 +13,19 @@
   <IDL_Settings_InfestationsEnabledTooltip>Permite que las entradas de mazmorra activen el evento de infestación por perforación profunda de RimWorld. Esta opción está activada de forma predeterminada. Al desactivarla, las entradas no pueden provocar infestaciones.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Probabilidad de infestación</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Ajusta la probabilidad de infestación existente de RimWorld para las entradas de mazmorra. 100 % conserva la probabilidad original, 50 % la reduce a la mitad y 0 % impide las infestaciones causadas por las entradas. No es una probabilidad garantizada por tarea de exploración.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Amenazas de la mazmorra</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Activar amenazas de la mazmorra</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Permite que las tareas de mazmorra completadas activen un ataque de saqueadores o un encuentro de entidades. Las infestaciones conservan su propia probabilidad, pero comparten el mismo tiempo de espera.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Activar saqueadores</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Permite que las tareas de mazmorra completadas atraigan un ataque hostil cuya fuerza depende de los puntos de amenaza actuales del narrador.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Activar shamblers y ghouls</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Permite un encuentro de Anomaly con solo shamblers, solo ghouls o una mezcla aleatoria de ambos.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_DungeonThreatChance>Probabilidad de encuentro</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Probabilidad de que una tarea de mazmorra completada active un ataque o un encuentro de entidades cuando el tiempo de espera compartido haya terminado.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_DungeonThreatStrength>Fuerza de la amenaza</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multiplica los puntos de amenaza del narrador usados para determinar el tamaño de los grupos de saqueadores y entidades.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Tiempo de espera compartido en días</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Número mínimo de días de juego tras una infestación, un encuentro de entidades o un ataque antes de que pueda ocurrir otra amenaza de la mazmorra.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Permitir objetos repetidos en un mismo botín</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Cuando está activado, el mismo tipo de objeto puede seleccionarse varias veces en un único resultado. Desactívalo para obtener un botín más variado.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Multiplicadores de botín por categoría</IDL_Settings_CategoryMultipliers>
@@ -27,4 +40,6 @@
   <IDL_Settings_Drugs>Drogas</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Botín raro</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Restablecer ajustes avanzados</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_EntitiesLetterLabel>Entidades de la mazmorra</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText>La expedición ha perturbado a {0} shamblers y {1} ghouls. Han surgido cerca de la entrada de la mazmorra y están atacando la colonia.</IDL_Threat_EntitiesLetterText>
 </LanguageData>

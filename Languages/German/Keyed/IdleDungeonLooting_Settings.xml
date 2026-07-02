@@ -13,6 +13,19 @@
   <IDL_Settings_InfestationsEnabledTooltip>Erlaubt Dungeon-Eingängen, RimWorlds Befallsereignis für Tiefenbohrer auszulösen. Diese Option ist standardmäßig aktiviert. Wird sie deaktiviert, können Dungeon-Eingänge keine Insektenbefälle mehr verursachen.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Befallswahrscheinlichkeit</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Skaliert die bestehende RimWorld-Befallswahrscheinlichkeit für Dungeon-Eingänge. 100 % behält die ursprüngliche Wahrscheinlichkeit bei, 50 % halbiert sie und 0 % verhindert Befälle durch Dungeon-Eingänge. Dies ist keine garantierte Wahrscheinlichkeit pro Suchauftrag.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Dungeon-Gefahren</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Dungeon-Gefahren aktivieren</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Erlaubt abgeschlossenen Dungeon-Aufträgen, Raider- oder Entity-Begegnungen auszulösen. Insektenbefälle behalten ihre eigene Wahrscheinlichkeit, teilen sich aber denselben Cooldown.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Raider aktivieren</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Erlaubt abgeschlossenen Dungeon-Aufträgen, einen feindlichen Überfall auszulösen. Seine Stärke richtet sich nach den aktuellen Bedrohungspunkten des Storytellers.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Shamblers und Ghouls aktivieren</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Erlaubt eine Anomaly-Begegnung mit ausschließlich Shamblers, ausschließlich Ghouls oder einer zufälligen Mischung aus beiden.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_DungeonThreatChance>Begegnungswahrscheinlichkeit</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Wahrscheinlichkeit, dass ein abgeschlossener Dungeon-Auftrag einen Überfall oder eine Entity-Begegnung auslöst, sofern der gemeinsame Cooldown abgelaufen ist.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_DungeonThreatStrength>Bedrohungsstärke</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multipliziert die Bedrohungspunkte des Storytellers, anhand derer die Gruppenstärke von Raidern und Entities bestimmt wird.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Gemeinsamer Cooldown in Tagen</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Mindestanzahl an Ingame-Tagen nach einem Insektenbefall, einer Entity-Begegnung oder einem Überfall, bevor erneut eine dieser Dungeon-Gefahren auftreten kann.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Doppelte Gegenstände in einem Beuteergebnis erlauben</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Wenn aktiviert, kann dieselbe Gegenstandsart in einem einzelnen Beuteergebnis mehrfach ausgewählt werden. Deaktivieren sorgt für abwechslungsreichere Beute.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Beutemultiplikatoren nach Kategorie</IDL_Settings_CategoryMultipliers>
@@ -27,4 +40,6 @@
   <IDL_Settings_Drugs>Drogen</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Seltene Beute</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Erweiterte Einstellungen zurücksetzen</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_EntitiesLetterLabel>Entities aus dem Dungeon</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText>Die Dungeon-Expedition hat {0} Shamblers und {1} Ghouls aufgeschreckt. Sie sind nahe dem Dungeon-Eingang hervorgebrochen und greifen die Kolonie an!</IDL_Threat_EntitiesLetterText>
 </LanguageData>

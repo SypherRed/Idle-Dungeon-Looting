@@ -13,6 +13,19 @@
   <IDL_Settings_InfestationsEnabledTooltip>Permet aux entrées de donjon de déclencher l'événement d'infestation lié aux forages profonds de RimWorld. Cette option est activée par défaut. La désactiver empêche les entrées de donjon de provoquer des infestations.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Probabilité d'infestation</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Ajuste la probabilité d'infestation existante de RimWorld pour les entrées de donjon. 100 % conserve la probabilité d'origine, 50 % la divise par deux et 0 % empêche les infestations causées par les entrées. Il ne s'agit pas d'une probabilité garantie par tâche d'exploration.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Menaces du donjon</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Activer les menaces du donjon</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Permet aux tâches de donjon terminées de déclencher une attaque de pillards ou une rencontre d'entités. Les infestations conservent leur propre probabilité, mais partagent le même délai.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Activer les pillards</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Permet aux tâches de donjon terminées d'attirer une attaque hostile dont la puissance dépend des points de menace actuels du conteur.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Activer les shamblers et les goules</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Permet une rencontre Anomaly contenant uniquement des shamblers, uniquement des goules ou un mélange aléatoire des deux.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_DungeonThreatChance>Probabilité de rencontre</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Probabilité qu'une tâche de donjon terminée déclenche une attaque ou une rencontre d'entités lorsque le délai commun est écoulé.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_DungeonThreatStrength>Puissance de la menace</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multiplie les points de menace du conteur utilisés pour déterminer la taille des groupes de pillards et d'entités.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Délai commun en jours</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Nombre minimum de jours en jeu après une infestation, une rencontre d'entités ou une attaque avant qu'une autre menace du donjon puisse survenir.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Autoriser les objets identiques dans un même butin</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Lorsque cette option est activée, un même type d'objet peut être sélectionné plusieurs fois dans un seul résultat. Désactivez-la pour obtenir un butin plus varié.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Multiplicateurs de butin par catégorie</IDL_Settings_CategoryMultipliers>
@@ -27,4 +40,6 @@
   <IDL_Settings_Drugs>Drogues</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Butin rare</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Réinitialiser les paramètres avancés</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_EntitiesLetterLabel>Entités du donjon</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText>L'expédition a dérangé {0} shamblers et {1} goules. Ils ont surgi près de l'entrée du donjon et attaquent la colonie !</IDL_Threat_EntitiesLetterText>
 </LanguageData>
