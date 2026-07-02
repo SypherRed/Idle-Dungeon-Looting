@@ -12,6 +12,11 @@
   <IDL_Update_Continue>Fortfahren</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Erweitert</IDL_Settings_Advanced>
+  <IDL_Settings_TabGameplay>Gameplay</IDL_Settings_TabGameplay>
+  <IDL_Settings_TabLoot>Beute</IDL_Settings_TabLoot>
+  <IDL_Settings_TabThreats>Gefahren</IDL_Settings_TabThreats>
+  <IDL_Settings_ResetLoot>Beuteeinstellungen zurücksetzen</IDL_Settings_ResetLoot>
+  <IDL_Settings_ResetThreats>Gefahrseinstellungen zurücksetzen</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Beutewürfe</IDL_Settings_LootAmount>
   <IDL_Settings_LootAmountTooltip>Höhere Werte erzeugen mehr Beutewürfe und damit mehr Gewinn. Kleinere Werte erzeugen weniger Würfe und weniger Gewinn. Bei Werten unter 1x besteht eine entsprechende Chance, dass ein Wurf keine Beute erzeugt.</IDL_Settings_LootAmountTooltip>
   <IDL_Settings_ItemAmount>Gegenstände pro Wurf</IDL_Settings_ItemAmount>

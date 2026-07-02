@@ -12,6 +12,11 @@
   <IDL_Update_Continue>Continuar</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Avanzado</IDL_Settings_Advanced>
+  <IDL_Settings_TabGameplay>Juego</IDL_Settings_TabGameplay>
+  <IDL_Settings_TabLoot>Botín</IDL_Settings_TabLoot>
+  <IDL_Settings_TabThreats>Amenazas</IDL_Settings_TabThreats>
+  <IDL_Settings_ResetLoot>Restablecer ajustes de botín</IDL_Settings_ResetLoot>
+  <IDL_Settings_ResetThreats>Restablecer ajustes de amenazas</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Tiradas de botín</IDL_Settings_LootAmount>
   <IDL_Settings_LootAmountTooltip>Los valores altos producen más tiradas de botín y, por tanto, más beneficios. Los valores bajos reducen las tiradas y los beneficios. Por debajo de 1x, cada tirada tiene una probabilidad proporcional de no producir botín.</IDL_Settings_LootAmountTooltip>
   <IDL_Settings_ItemAmount>Objetos por tirada</IDL_Settings_ItemAmount>

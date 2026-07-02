@@ -12,6 +12,11 @@
   <IDL_Update_Continue>Continuer</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Avancé</IDL_Settings_Advanced>
+  <IDL_Settings_TabGameplay>Jeu</IDL_Settings_TabGameplay>
+  <IDL_Settings_TabLoot>Butin</IDL_Settings_TabLoot>
+  <IDL_Settings_TabThreats>Menaces</IDL_Settings_TabThreats>
+  <IDL_Settings_ResetLoot>Réinitialiser les paramètres de butin</IDL_Settings_ResetLoot>
+  <IDL_Settings_ResetThreats>Réinitialiser les paramètres de menace</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Tirages de butin</IDL_Settings_LootAmount>
   <IDL_Settings_LootAmountTooltip>Les valeurs élevées produisent davantage de tirages et donc plus de bénéfices. Les valeurs faibles réduisent les tirages et les bénéfices. En dessous de 1x, chaque tirage a une chance proportionnelle de ne produire aucun butin.</IDL_Settings_LootAmountTooltip>
   <IDL_Settings_ItemAmount>Objets par tirage</IDL_Settings_ItemAmount>
