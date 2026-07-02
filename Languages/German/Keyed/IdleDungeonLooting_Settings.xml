@@ -6,7 +6,9 @@
   <IDL_Update_GameplayHeader>Dungeon-Expeditionen</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Beutewürfe, Gegenstandsmengen und Suchdauer können jetzt angepasst werden. Laufende unfertige Expeditionen werden bei einer geänderten Suchdauer proportional umgerechnet.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Gefahren aus der Tiefe</IDL_Update_ThreatsHeader>
-  <IDL_Update_ThreatsText>Insektenbefälle, Raider, Shamblers und Ghouls teilen sich eine ansteigende Wahrscheinlichkeit und einen gemeinsamen Cooldown. Gewichtung, Stärke, Fortschrittseinfluss und Häufigkeit sind konfigurierbar.</IDL_Update_ThreatsText>
+  <IDL_Update_ThreatsText>Insektenbefälle, Raider, Schlurfer und Ghule teilen sich eine ansteigende Wahrscheinlichkeit und einen gemeinsamen Cooldown. Gewichtung, Stärke, Fortschrittseinfluss und Häufigkeit sind konfigurierbar.</IDL_Update_ThreatsText>
+  <IDL_Update_DebugHeader>Entwicklerwerkzeuge</IDL_Update_DebugHeader>
+  <IDL_Update_DebugText>Bei aktiviertem Entwicklermodus können Debug-Befehle jede Dungeon-Gefahr auslösen, einen normalen Gefahrenwurf durchführen, dessen Status anzeigen oder zurücksetzen, Beute erzeugen und dieses Update-Fenster erneut öffnen.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Kompatibilität</IDL_Update_CompatibilityHeader>
   <IDL_Update_CompatibilityText>Vollständige Unterstützung für RimWorld 1.5 und 1.6, optionale Anomaly-Entities sowie übersetzte Einstellungen und Lore-Texte auf Englisch, Deutsch, Französisch und Spanisch.</IDL_Update_CompatibilityText>
   <IDL_Update_Continue>Fortfahren</IDL_Update_Continue>
@@ -33,8 +35,8 @@
   <IDL_Settings_DungeonThreatsEnabledTooltip>Aktiviert den gemeinsamen Gefahrenwurf nach abgeschlossenen Dungeon-Aufträgen. Insektenbefälle, Raider und Entities verwenden alle diesen Wurf und seinen Cooldown.</IDL_Settings_DungeonThreatsEnabledTooltip>
   <IDL_Settings_RaiderThreatsEnabled>Raider aktivieren</IDL_Settings_RaiderThreatsEnabled>
   <IDL_Settings_RaiderThreatsEnabledTooltip>Erlaubt abgeschlossenen Dungeon-Aufträgen, einen feindlichen Überfall auszulösen. Seine Stärke richtet sich nach den aktuellen Bedrohungspunkten des Storytellers.</IDL_Settings_RaiderThreatsEnabledTooltip>
-  <IDL_Settings_EntityThreatsEnabled>Shamblers und Ghouls aktivieren</IDL_Settings_EntityThreatsEnabled>
-  <IDL_Settings_EntityThreatsEnabledTooltip>Erlaubt eine Anomaly-Begegnung mit ausschließlich Shamblers, ausschließlich Ghouls oder einer zufälligen Mischung aus beiden.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Schlurfer und Ghule aktivieren</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Erlaubt eine Anomaly-Begegnung mit ausschließlich Schlurfern, ausschließlich Ghulen oder einer zufälligen Mischung aus beiden.</IDL_Settings_EntityThreatsEnabledTooltip>
   <IDL_Settings_InfestationWeight>Gewichtung für Insektenbefälle</IDL_Settings_InfestationWeight>
   <IDL_Settings_RaiderWeight>Gewichtung für Raider</IDL_Settings_RaiderWeight>
   <IDL_Settings_EntityWeight>Gewichtung für Entities</IDL_Settings_EntityWeight>
@@ -79,7 +81,7 @@
   <IDL_Threat_InfestationLetterText_2>Die Erschütterungen aus dem Dungeon haben ein tief verborgenes Nest erreicht. Aus den Tunneln dringt ein Zirpen, das mit jeder Sekunde lauter wird.</IDL_Threat_InfestationLetterText_2>
   <IDL_Threat_InfestationLetterText_3>Ein uralter Gang ist in einen Insektenbau eingebrochen. Die Brut ist erwacht, außer sich vor Wut und gräbt sich zum Dungeon-Eingang vor.</IDL_Threat_InfestationLetterText_3>
   <IDL_Threat_EntitiesLetterLabel>Entities aus dem Dungeon</IDL_Threat_EntitiesLetterLabel>
-  <IDL_Threat_EntitiesLetterText_1>Die Expedition hat {0} Shamblers und {1} Ghouls aufgeschreckt. Sie sind nahe dem Dungeon-Eingang hervorgebrochen und greifen die Kolonie an!</IDL_Threat_EntitiesLetterText_1>
-  <IDL_Threat_EntitiesLetterText_2>Schleifende Schritte und wildes Knurren hallen aus der Tiefe. {0} Shamblers und {1} Ghouls strömen aus dem Dungeon, getrieben von geistlosem Hunger.</IDL_Threat_EntitiesLetterText_2>
-  <IDL_Threat_EntitiesLetterText_3>Eine versiegelte Grabkammer wurde aufgebrochen. In der Dunkelheit regt sich totes Leben, während sich {0} Shamblers und {1} Ghouls ihren Weg zur Oberfläche bahnen.</IDL_Threat_EntitiesLetterText_3>
+  <IDL_Threat_EntitiesLetterText_1>Die Expedition hat {0} Schlurfer und {1} Ghule aufgeschreckt. Sie sind nahe dem Dungeon-Eingang hervorgebrochen und greifen die Kolonie an!</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Schleifende Schritte und wildes Knurren hallen aus der Tiefe. {0} Schlurfer und {1} Ghule strömen aus dem Dungeon, getrieben von geistlosem Hunger.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Eine versiegelte Grabkammer wurde aufgebrochen. In der Dunkelheit regt sich totes Leben, während sich {0} Schlurfer und {1} Ghule ihren Weg zur Oberfläche bahnen.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>
