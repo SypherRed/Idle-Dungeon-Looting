@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting was installed or updated for this colony.\n\nThis version adds configurable loot and search values, a shared dungeon-threat system with infestations, raiders and Anomaly entities, escalating encounter chances, translated lore notifications, and full RimWorld 1.5 and 1.6 support.\n\nAll options can be adjusted under Options > Mod settings.</IDL_Update_Message>
+  <IDL_Update_Subtitle>New depths. New rewards. New dangers.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Dungeon expeditions</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Loot rolls, item amounts, and search duration can now be adjusted. Active unfinished expeditions adapt proportionally when the duration changes.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Threats from below</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Infestations, raiders, shamblers, and ghouls share an escalating chance and cooldown system. Event weights, strength, progress influence, and frequency are configurable.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Compatibility</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Full support for RimWorld 1.5 and 1.6, optional Anomaly entities, and translated settings and lore in English, German, French, and Spanish.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Continue</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Advanced</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Loot rolls</IDL_Settings_LootAmount>
@@ -10,9 +20,37 @@
   <IDL_Settings_SearchDurationTooltip>Higher values make dungeon searches take longer. Lower values shorten searches and increase the potential profit per unit of time.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Reset global settings</IDL_Settings_ResetGlobal>
   <IDL_Settings_InfestationsEnabled>Enable insect infestations</IDL_Settings_InfestationsEnabled>
-  <IDL_Settings_InfestationsEnabledTooltip>Allows dungeon entrances to trigger RimWorld's deep-drill infestation event. This is enabled by default. Disabling it prevents dungeon entrances from causing insect infestations.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationsEnabledTooltip>Includes infestations in the shared dungeon threat roll. Disabling this prevents dungeon entrances from causing insect infestations.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Infestation chance</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Scales the existing RimWorld infestation chance for dungeon entrances. 100% preserves the original chance, 50% halves it, and 0% prevents dungeon entrances from causing infestations. This is not a guaranteed chance per scavenging job.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Dungeon threats</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Enable dungeon threats</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Enables the shared threat roll after completed dungeon jobs. Infestations, raiders, and entities all use this roll and its cooldown.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Enable raiders</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Allows completed dungeon jobs to attract a hostile raid scaled by the storyteller's current threat points.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Enable shamblers and ghouls</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Allows an Anomaly encounter containing only shamblers, only ghouls, or a random mixture of both.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_InfestationWeight>Infestation weight</IDL_Settings_InfestationWeight>
+  <IDL_Settings_RaiderWeight>Raider weight</IDL_Settings_RaiderWeight>
+  <IDL_Settings_EntityWeight>Entity weight</IDL_Settings_EntityWeight>
+  <IDL_Settings_ThreatWeightTooltip>Relative chance that this event type is selected after a successful threat roll. A weight of 0x excludes it.</IDL_Settings_ThreatWeightTooltip>
+  <IDL_Settings_ThreatFormulaHeader>Threat chance formula</IDL_Settings_ThreatFormulaHeader>
+  <IDL_Settings_DungeonThreatChance>Base chance</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Starting chance for a dungeon threat after the cooldown. A successful event resets the accumulated chance to this value.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_FailedRollBonus>Bonus per failed roll</IDL_Settings_FailedRollBonus>
+  <IDL_Settings_FailedRollBonusTooltip>Additional percentage points added after each completed dungeon job that does not trigger a threat.</IDL_Settings_FailedRollBonusTooltip>
+  <IDL_Settings_MaximumThreatChance>Maximum chance</IDL_Settings_MaximumThreatChance>
+  <IDL_Settings_MaximumThreatChanceTooltip>Upper limit for the final chance after difficulty, progress, and failed-roll bonuses are applied.</IDL_Settings_MaximumThreatChanceTooltip>
+  <IDL_Settings_DifficultyInfluence>Difficulty influence</IDL_Settings_DifficultyInfluence>
+  <IDL_Settings_DifficultyInfluenceTooltip>Controls how strongly the storyteller difficulty scales the accumulated base chance. At 0x difficulty has no effect.</IDL_Settings_DifficultyInfluenceTooltip>
+  <IDL_Settings_ProgressBonusMaximum>Maximum progress bonus</IDL_Settings_ProgressBonusMaximum>
+  <IDL_Settings_ProgressBonusMaximumTooltip>Maximum additive chance gained from colony age and wealth. The full bonus is approached after 120 days and 500,000 wealth.</IDL_Settings_ProgressBonusMaximumTooltip>
+  <IDL_Settings_CurrentThreatChance>Current calculated chance: {0}</IDL_Settings_CurrentThreatChance>
+  <IDL_Settings_FailedRolls>Failed rolls since last threat: {0}</IDL_Settings_FailedRolls>
+  <IDL_Settings_DungeonThreatStrength>Threat strength</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multiplies the storyteller threat points used to determine raider and entity group sizes.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Shared cooldown in days</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Minimum number of in-game days after an infestation, entity encounter, or raid before any of these dungeon threats can occur again.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Allow duplicate items in one loot result</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>When enabled, the same item type can be selected more than once during a single loot result. Disable this for more varied loot.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Loot multipliers by category</IDL_Settings_CategoryMultipliers>
@@ -27,4 +65,16 @@
   <IDL_Settings_Drugs>Drugs</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Rare loot</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Reset advanced settings</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Greedy eyes</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Raiders have learned of your dungeon and the treasures recovered from its depths. Hoping for easy riches, they are approaching your colony. Prepare for an attack!</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Your expeditions have not gone unnoticed. Armed scavengers followed the trail of recovered treasure back to your colony and now intend to take the dungeon's riches for themselves.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Rumors of an entrance to untouched underground vaults have spread beyond the colony. A band of raiders has come to seize the dungeon and everything brought out of it.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>The ground trembles</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>The expedition disturbed something deep beneath the dungeon. The ground is splitting open as enraged insects tunnel toward the surface.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Vibrations from the dungeon have reached a nest hidden far below. Chittering echoes rise through the tunnels, growing louder by the second.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>An ancient passage has collapsed into an insect hive. The brood is awake, furious, and clawing its way toward the dungeon entrance.</IDL_Threat_InfestationLetterText_3>
+  <IDL_Threat_EntitiesLetterLabel>Entities from the dungeon</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText_1>The expedition has disturbed {0} shamblers and {1} ghouls. They have emerged near the dungeon entrance and are attacking the colony!</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Dragging footsteps and feral growls echo from below. {0} shamblers and {1} ghouls spill out of the dungeon, driven by mindless hunger.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>A sealed burial chamber has been breached. Deadlife stirs in the darkness as {0} shamblers and {1} ghouls force their way toward the surface.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting a été installé ou mis à jour pour cette colonie.\n\nCette version ajoute des valeurs de butin et de recherche configurables, un système commun de menaces avec infestations, pillards et entités d'Anomaly, une probabilité de rencontre croissante, des notifications narratives traduites et une prise en charge complète de RimWorld 1.5 et 1.6.\n\nToutes les options sont disponibles dans Options > Paramètres des mods.</IDL_Update_Message>
+  <IDL_Update_Subtitle>De nouvelles profondeurs, richesses et menaces.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Expéditions dans le donjon</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Les tirages de butin, la quantité d'objets et la durée de recherche peuvent désormais être ajustés. Les expéditions inachevées sont recalculées proportionnellement lorsque la durée change.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Menaces des profondeurs</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Les infestations, pillards, shamblers et goules partagent une probabilité croissante et un délai commun. Le poids, la puissance, l'influence de la progression et la fréquence sont configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Compatibilité</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Prise en charge complète de RimWorld 1.5 et 1.6, entités d'Anomaly facultatives, ainsi que paramètres et textes narratifs traduits en anglais, allemand, français et espagnol.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Continuer</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Avancé</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Tirages de butin</IDL_Settings_LootAmount>
@@ -10,9 +20,37 @@
   <IDL_Settings_SearchDurationTooltip>Les valeurs élevées allongent l'exploration du donjon. Les valeurs faibles la raccourcissent et augmentent ainsi les bénéfices potentiels par unité de temps.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Réinitialiser les paramètres globaux</IDL_Settings_ResetGlobal>
   <IDL_Settings_InfestationsEnabled>Activer les infestations d'insectes</IDL_Settings_InfestationsEnabled>
-  <IDL_Settings_InfestationsEnabledTooltip>Permet aux entrées de donjon de déclencher l'événement d'infestation lié aux forages profonds de RimWorld. Cette option est activée par défaut. La désactiver empêche les entrées de donjon de provoquer des infestations.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationsEnabledTooltip>Inclut les infestations dans le jet commun des menaces du donjon. Désactiver cette option empêche les entrées de donjon de provoquer des infestations.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Probabilité d'infestation</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Ajuste la probabilité d'infestation existante de RimWorld pour les entrées de donjon. 100 % conserve la probabilité d'origine, 50 % la divise par deux et 0 % empêche les infestations causées par les entrées. Il ne s'agit pas d'une probabilité garantie par tâche d'exploration.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Menaces du donjon</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Activer les menaces du donjon</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Active le jet commun de menace après chaque tâche de donjon terminée. Les infestations, les pillards et les entités utilisent tous ce jet et son délai.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Activer les pillards</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Permet aux tâches de donjon terminées d'attirer une attaque hostile dont la puissance dépend des points de menace actuels du conteur.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Activer les shamblers et les goules</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Permet une rencontre Anomaly contenant uniquement des shamblers, uniquement des goules ou un mélange aléatoire des deux.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_InfestationWeight>Poids des infestations</IDL_Settings_InfestationWeight>
+  <IDL_Settings_RaiderWeight>Poids des pillards</IDL_Settings_RaiderWeight>
+  <IDL_Settings_EntityWeight>Poids des entités</IDL_Settings_EntityWeight>
+  <IDL_Settings_ThreatWeightTooltip>Probabilité relative que ce type d'événement soit sélectionné après un jet de menace réussi. Un poids de 0x l'exclut.</IDL_Settings_ThreatWeightTooltip>
+  <IDL_Settings_ThreatFormulaHeader>Formule de probabilité des menaces</IDL_Settings_ThreatFormulaHeader>
+  <IDL_Settings_DungeonThreatChance>Probabilité de base</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Probabilité initiale d'une menace après le délai. Un événement réussi réinitialise la probabilité accumulée à cette valeur.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_FailedRollBonus>Bonus par jet manqué</IDL_Settings_FailedRollBonus>
+  <IDL_Settings_FailedRollBonusTooltip>Points de pourcentage supplémentaires après chaque tâche de donjon terminée qui ne déclenche aucune menace.</IDL_Settings_FailedRollBonusTooltip>
+  <IDL_Settings_MaximumThreatChance>Probabilité maximale</IDL_Settings_MaximumThreatChance>
+  <IDL_Settings_MaximumThreatChanceTooltip>Limite supérieure de la probabilité finale après application de la difficulté, de la progression et des jets manqués.</IDL_Settings_MaximumThreatChanceTooltip>
+  <IDL_Settings_DifficultyInfluence>Influence de la difficulté</IDL_Settings_DifficultyInfluence>
+  <IDL_Settings_DifficultyInfluenceTooltip>Détermine dans quelle mesure la difficulté du conteur multiplie la probabilité de base accumulée. À 0x, elle n'a aucun effet.</IDL_Settings_DifficultyInfluenceTooltip>
+  <IDL_Settings_ProgressBonusMaximum>Bonus de progression maximal</IDL_Settings_ProgressBonusMaximum>
+  <IDL_Settings_ProgressBonusMaximumTooltip>Bonus additionnel maximal accordé par l'âge et la richesse de la colonie. Le bonus complet est atteint après 120 jours et avec 500 000 de richesse.</IDL_Settings_ProgressBonusMaximumTooltip>
+  <IDL_Settings_CurrentThreatChance>Probabilité actuellement calculée : {0}</IDL_Settings_CurrentThreatChance>
+  <IDL_Settings_FailedRolls>Jets manqués depuis la dernière menace : {0}</IDL_Settings_FailedRolls>
+  <IDL_Settings_DungeonThreatStrength>Puissance de la menace</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multiplie les points de menace du conteur utilisés pour déterminer la taille des groupes de pillards et d'entités.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Délai commun en jours</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Nombre minimum de jours en jeu après une infestation, une rencontre d'entités ou une attaque avant qu'une autre menace du donjon puisse survenir.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Autoriser les objets identiques dans un même butin</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Lorsque cette option est activée, un même type d'objet peut être sélectionné plusieurs fois dans un seul résultat. Désactivez-la pour obtenir un butin plus varié.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Multiplicateurs de butin par catégorie</IDL_Settings_CategoryMultipliers>
@@ -27,4 +65,16 @@
   <IDL_Settings_Drugs>Drogues</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Butin rare</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Réinitialiser les paramètres avancés</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Des regards avides</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Des pillards ont entendu parler de votre donjon et des trésors remontés de ses profondeurs. Attirés par la promesse de richesses faciles, ils approchent de la colonie. Préparez-vous à l'attaque !</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Vos expéditions ne sont pas passées inaperçues. Des pillards armés ont suivi la trace des trésors jusqu'à votre colonie et comptent désormais s'emparer des richesses du donjon.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Des rumeurs évoquant l'entrée de caveaux souterrains encore intacts se sont répandues. Une bande de pillards est venue prendre le donjon et tout ce qui en a été extrait.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>Le sol tremble</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>L'expédition a dérangé quelque chose dans les profondeurs du donjon. Le sol se fissure tandis que des insectes furieux creusent vers la surface.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Les vibrations du donjon ont atteint un nid enfoui loin sous terre. Des cliquetis montent des tunnels et deviennent plus forts à chaque seconde.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>Un ancien passage s'est effondré dans une ruche d'insectes. La couvée est éveillée, furieuse, et se fraye un chemin vers l'entrée du donjon.</IDL_Threat_InfestationLetterText_3>
+  <IDL_Threat_EntitiesLetterLabel>Entités du donjon</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText_1>L'expédition a dérangé {0} shamblers et {1} goules. Ils ont surgi près de l'entrée du donjon et attaquent la colonie !</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Des pas traînants et des grognements sauvages résonnent depuis les profondeurs. {0} shamblers et {1} goules jaillissent du donjon, poussés par une faim aveugle.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Une chambre funéraire scellée a été éventrée. La mort s'agite dans l'obscurité tandis que {0} shamblers et {1} goules se frayent un chemin vers la surface.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>

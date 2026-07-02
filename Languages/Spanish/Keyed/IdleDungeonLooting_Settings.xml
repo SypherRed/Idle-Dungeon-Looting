@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting se ha instalado o actualizado para esta colonia.\n\nEsta versión añade valores configurables de botín y búsqueda, un sistema compartido de amenazas con infestaciones, saqueadores y entidades de Anomaly, una probabilidad creciente de encuentros, avisos narrativos traducidos y compatibilidad completa con RimWorld 1.5 y 1.6.\n\nTodas las opciones pueden ajustarse en Opciones > Ajustes de mods.</IDL_Update_Message>
+  <IDL_Update_Subtitle>Nuevas profundidades, tesoros y peligros.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Expediciones a la mazmorra</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Ahora pueden ajustarse las tiradas de botín, la cantidad de objetos y la duración de búsqueda. Las expediciones sin terminar se recalculan proporcionalmente cuando cambia la duración.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Amenazas de las profundidades</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Las infestaciones, los saqueadores, los shamblers y los ghouls comparten una probabilidad creciente y un tiempo de espera. El peso, la fuerza, la influencia del progreso y la frecuencia son configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Compatibilidad</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Compatibilidad completa con RimWorld 1.5 y 1.6, entidades opcionales de Anomaly y ajustes y textos narrativos traducidos al inglés, alemán, francés y español.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Continuar</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Avanzado</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Tiradas de botín</IDL_Settings_LootAmount>
@@ -10,9 +20,37 @@
   <IDL_Settings_SearchDurationTooltip>Los valores altos alargan la exploración de la mazmorra. Los valores bajos la acortan y aumentan los posibles beneficios por unidad de tiempo.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Restablecer ajustes globales</IDL_Settings_ResetGlobal>
   <IDL_Settings_InfestationsEnabled>Activar infestaciones de insectos</IDL_Settings_InfestationsEnabled>
-  <IDL_Settings_InfestationsEnabledTooltip>Permite que las entradas de mazmorra activen el evento de infestación por perforación profunda de RimWorld. Esta opción está activada de forma predeterminada. Al desactivarla, las entradas no pueden provocar infestaciones.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationsEnabledTooltip>Incluye las infestaciones en la tirada compartida de amenazas de la mazmorra. Desactivar esta opción impide que las entradas provoquen infestaciones.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Probabilidad de infestación</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Ajusta la probabilidad de infestación existente de RimWorld para las entradas de mazmorra. 100 % conserva la probabilidad original, 50 % la reduce a la mitad y 0 % impide las infestaciones causadas por las entradas. No es una probabilidad garantizada por tarea de exploración.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Amenazas de la mazmorra</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Activar amenazas de la mazmorra</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Activa la tirada compartida de amenaza después de las tareas de mazmorra completadas. Las infestaciones, los saqueadores y las entidades usan esta tirada y su tiempo de espera.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Activar saqueadores</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Permite que las tareas de mazmorra completadas atraigan un ataque hostil cuya fuerza depende de los puntos de amenaza actuales del narrador.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Activar shamblers y ghouls</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Permite un encuentro de Anomaly con solo shamblers, solo ghouls o una mezcla aleatoria de ambos.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_InfestationWeight>Peso de las infestaciones</IDL_Settings_InfestationWeight>
+  <IDL_Settings_RaiderWeight>Peso de los saqueadores</IDL_Settings_RaiderWeight>
+  <IDL_Settings_EntityWeight>Peso de las entidades</IDL_Settings_EntityWeight>
+  <IDL_Settings_ThreatWeightTooltip>Probabilidad relativa de que este tipo de evento sea elegido tras una tirada de amenaza exitosa. Un peso de 0x lo excluye.</IDL_Settings_ThreatWeightTooltip>
+  <IDL_Settings_ThreatFormulaHeader>Fórmula de probabilidad de amenazas</IDL_Settings_ThreatFormulaHeader>
+  <IDL_Settings_DungeonThreatChance>Probabilidad base</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Probabilidad inicial de una amenaza después del tiempo de espera. Un evento exitoso restablece la probabilidad acumulada a este valor.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_FailedRollBonus>Bonificación por tirada fallida</IDL_Settings_FailedRollBonus>
+  <IDL_Settings_FailedRollBonusTooltip>Puntos porcentuales adicionales tras cada tarea de mazmorra completada que no active ninguna amenaza.</IDL_Settings_FailedRollBonusTooltip>
+  <IDL_Settings_MaximumThreatChance>Probabilidad máxima</IDL_Settings_MaximumThreatChance>
+  <IDL_Settings_MaximumThreatChanceTooltip>Límite superior de la probabilidad final tras aplicar la dificultad, el progreso y las tiradas fallidas.</IDL_Settings_MaximumThreatChanceTooltip>
+  <IDL_Settings_DifficultyInfluence>Influencia de la dificultad</IDL_Settings_DifficultyInfluence>
+  <IDL_Settings_DifficultyInfluenceTooltip>Controla cuánto multiplica la dificultad del narrador la probabilidad base acumulada. Con 0x no tiene efecto.</IDL_Settings_DifficultyInfluenceTooltip>
+  <IDL_Settings_ProgressBonusMaximum>Bonificación máxima por progreso</IDL_Settings_ProgressBonusMaximum>
+  <IDL_Settings_ProgressBonusMaximumTooltip>Bonificación adicional máxima obtenida por la edad y la riqueza de la colonia. Se alcanza tras 120 días y con 500 000 de riqueza.</IDL_Settings_ProgressBonusMaximumTooltip>
+  <IDL_Settings_CurrentThreatChance>Probabilidad calculada actual: {0}</IDL_Settings_CurrentThreatChance>
+  <IDL_Settings_FailedRolls>Tiradas fallidas desde la última amenaza: {0}</IDL_Settings_FailedRolls>
+  <IDL_Settings_DungeonThreatStrength>Fuerza de la amenaza</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multiplica los puntos de amenaza del narrador usados para determinar el tamaño de los grupos de saqueadores y entidades.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Tiempo de espera compartido en días</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Número mínimo de días de juego tras una infestación, un encuentro de entidades o un ataque antes de que pueda ocurrir otra amenaza de la mazmorra.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Permitir objetos repetidos en un mismo botín</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Cuando está activado, el mismo tipo de objeto puede seleccionarse varias veces en un único resultado. Desactívalo para obtener un botín más variado.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Multiplicadores de botín por categoría</IDL_Settings_CategoryMultipliers>
@@ -27,4 +65,16 @@
   <IDL_Settings_Drugs>Drogas</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Botín raro</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Restablecer ajustes avanzados</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Miradas codiciosas</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Los saqueadores se han enterado de la existencia de tu mazmorra y de los tesoros recuperados de sus profundidades. Atraídos por la promesa de riquezas fáciles, se acercan a la colonia. Prepárate para el ataque.</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Tus expediciones no han pasado desapercibidas. Unos saqueadores armados han seguido el rastro de los tesoros hasta tu colonia y ahora pretenden quedarse con las riquezas de la mazmorra.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Se han extendido rumores sobre una entrada a cámaras subterráneas aún intactas. Una banda de saqueadores ha venido para apoderarse de la mazmorra y de todo lo extraído de ella.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>El suelo tiembla</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>La expedición ha perturbado algo en las profundidades de la mazmorra. El suelo se resquebraja mientras unos insectos enfurecidos excavan hacia la superficie.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Las vibraciones de la mazmorra han alcanzado un nido oculto bajo tierra. Un repiqueteo asciende por los túneles y aumenta a cada segundo.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>Un antiguo pasadizo se ha derrumbado sobre una colmena de insectos. La progenie ha despertado, está furiosa y se abre paso hacia la entrada de la mazmorra.</IDL_Threat_InfestationLetterText_3>
+  <IDL_Threat_EntitiesLetterLabel>Entidades de la mazmorra</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText_1>La expedición ha perturbado a {0} shamblers y {1} ghouls. Han surgido cerca de la entrada de la mazmorra y están atacando la colonia.</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Pasos arrastrados y gruñidos salvajes resuenan desde las profundidades. {0} shamblers y {1} ghouls salen de la mazmorra impulsados por un hambre irracional.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Una cámara funeraria sellada ha sido abierta. La muerte se agita en la oscuridad mientras {0} shamblers y {1} ghouls se abren paso hacia la superficie.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>

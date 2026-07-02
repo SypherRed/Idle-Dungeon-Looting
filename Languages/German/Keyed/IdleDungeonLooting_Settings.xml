@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting wurde für diese Kolonie installiert oder aktualisiert.\n\nDiese Version ergänzt konfigurierbare Beute- und Suchwerte, ein gemeinsames Dungeon-Gefahrensystem mit Insektenbefällen, Raidern und Anomaly-Entities, eine ansteigende Begegnungswahrscheinlichkeit, übersetzte Lore-Nachrichten sowie vollständige Unterstützung für RimWorld 1.5 und 1.6.\n\nAlle Optionen können unter Optionen > Mod-Einstellungen angepasst werden.</IDL_Update_Message>
+  <IDL_Update_Subtitle>Neue Tiefen. Neue Schätze. Neue Gefahren.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Dungeon-Expeditionen</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Beutewürfe, Gegenstandsmengen und Suchdauer können jetzt angepasst werden. Laufende unfertige Expeditionen werden bei einer geänderten Suchdauer proportional umgerechnet.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Gefahren aus der Tiefe</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Insektenbefälle, Raider, Shamblers und Ghouls teilen sich eine ansteigende Wahrscheinlichkeit und einen gemeinsamen Cooldown. Gewichtung, Stärke, Fortschrittseinfluss und Häufigkeit sind konfigurierbar.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Kompatibilität</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Vollständige Unterstützung für RimWorld 1.5 und 1.6, optionale Anomaly-Entities sowie übersetzte Einstellungen und Lore-Texte auf Englisch, Deutsch, Französisch und Spanisch.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Fortfahren</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Erweitert</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Beutewürfe</IDL_Settings_LootAmount>
@@ -10,9 +20,37 @@
   <IDL_Settings_SearchDurationTooltip>Höhere Werte verlängern die Suche im Dungeon. Kleinere Werte verkürzen die Suche und erhöhen dadurch den möglichen Gewinn pro Zeiteinheit.</IDL_Settings_SearchDurationTooltip>
   <IDL_Settings_ResetGlobal>Globale Einstellungen zurücksetzen</IDL_Settings_ResetGlobal>
   <IDL_Settings_InfestationsEnabled>Insektenbefälle aktivieren</IDL_Settings_InfestationsEnabled>
-  <IDL_Settings_InfestationsEnabledTooltip>Erlaubt Dungeon-Eingängen, RimWorlds Befallsereignis für Tiefenbohrer auszulösen. Diese Option ist standardmäßig aktiviert. Wird sie deaktiviert, können Dungeon-Eingänge keine Insektenbefälle mehr verursachen.</IDL_Settings_InfestationsEnabledTooltip>
+  <IDL_Settings_InfestationsEnabledTooltip>Nimmt Insektenbefälle in den gemeinsamen Würfelwurf für Dungeon-Gefahren auf. Wird die Option deaktiviert, können Dungeon-Eingänge keine Insektenbefälle verursachen.</IDL_Settings_InfestationsEnabledTooltip>
   <IDL_Settings_InfestationChance>Befallswahrscheinlichkeit</IDL_Settings_InfestationChance>
   <IDL_Settings_InfestationChanceTooltip>Skaliert die bestehende RimWorld-Befallswahrscheinlichkeit für Dungeon-Eingänge. 100 % behält die ursprüngliche Wahrscheinlichkeit bei, 50 % halbiert sie und 0 % verhindert Befälle durch Dungeon-Eingänge. Dies ist keine garantierte Wahrscheinlichkeit pro Suchauftrag.</IDL_Settings_InfestationChanceTooltip>
+  <IDL_Settings_DungeonThreatsHeader>Dungeon-Gefahren</IDL_Settings_DungeonThreatsHeader>
+  <IDL_Settings_DungeonThreatsEnabled>Dungeon-Gefahren aktivieren</IDL_Settings_DungeonThreatsEnabled>
+  <IDL_Settings_DungeonThreatsEnabledTooltip>Aktiviert den gemeinsamen Gefahrenwurf nach abgeschlossenen Dungeon-Aufträgen. Insektenbefälle, Raider und Entities verwenden alle diesen Wurf und seinen Cooldown.</IDL_Settings_DungeonThreatsEnabledTooltip>
+  <IDL_Settings_RaiderThreatsEnabled>Raider aktivieren</IDL_Settings_RaiderThreatsEnabled>
+  <IDL_Settings_RaiderThreatsEnabledTooltip>Erlaubt abgeschlossenen Dungeon-Aufträgen, einen feindlichen Überfall auszulösen. Seine Stärke richtet sich nach den aktuellen Bedrohungspunkten des Storytellers.</IDL_Settings_RaiderThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Shamblers und Ghouls aktivieren</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Erlaubt eine Anomaly-Begegnung mit ausschließlich Shamblers, ausschließlich Ghouls oder einer zufälligen Mischung aus beiden.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_InfestationWeight>Gewichtung für Insektenbefälle</IDL_Settings_InfestationWeight>
+  <IDL_Settings_RaiderWeight>Gewichtung für Raider</IDL_Settings_RaiderWeight>
+  <IDL_Settings_EntityWeight>Gewichtung für Entities</IDL_Settings_EntityWeight>
+  <IDL_Settings_ThreatWeightTooltip>Relative Wahrscheinlichkeit, mit der diese Ereignisart nach einem erfolgreichen Gefahrenwurf ausgewählt wird. Eine Gewichtung von 0x schließt sie aus.</IDL_Settings_ThreatWeightTooltip>
+  <IDL_Settings_ThreatFormulaHeader>Formel für Gefahrenwahrscheinlichkeit</IDL_Settings_ThreatFormulaHeader>
+  <IDL_Settings_DungeonThreatChance>Basiswahrscheinlichkeit</IDL_Settings_DungeonThreatChance>
+  <IDL_Settings_DungeonThreatChanceTooltip>Ausgangswahrscheinlichkeit für eine Dungeon-Gefahr nach dem Cooldown. Ein erfolgreiches Ereignis setzt die angesammelte Chance auf diesen Wert zurück.</IDL_Settings_DungeonThreatChanceTooltip>
+  <IDL_Settings_FailedRollBonus>Bonus je fehlgeschlagenem Wurf</IDL_Settings_FailedRollBonus>
+  <IDL_Settings_FailedRollBonusTooltip>Zusätzliche Prozentpunkte nach jedem abgeschlossenen Dungeon-Auftrag, bei dem keine Gefahr ausgelöst wurde.</IDL_Settings_FailedRollBonusTooltip>
+  <IDL_Settings_MaximumThreatChance>Maximale Wahrscheinlichkeit</IDL_Settings_MaximumThreatChance>
+  <IDL_Settings_MaximumThreatChanceTooltip>Obergrenze der endgültigen Wahrscheinlichkeit nach Anwendung von Schwierigkeit, Fortschritt und Fehlschlagbonus.</IDL_Settings_MaximumThreatChanceTooltip>
+  <IDL_Settings_DifficultyInfluence>Einfluss der Schwierigkeit</IDL_Settings_DifficultyInfluence>
+  <IDL_Settings_DifficultyInfluenceTooltip>Bestimmt, wie stark die Storyteller-Schwierigkeit die angesammelte Basiswahrscheinlichkeit skaliert. Bei 0x hat sie keinen Einfluss.</IDL_Settings_DifficultyInfluenceTooltip>
+  <IDL_Settings_ProgressBonusMaximum>Maximaler Fortschrittsbonus</IDL_Settings_ProgressBonusMaximum>
+  <IDL_Settings_ProgressBonusMaximumTooltip>Maximaler zusätzlicher Bonus durch Alter und Reichtum der Kolonie. Nach 120 Tagen und bei 500.000 Reichtum wird der volle Bonus erreicht.</IDL_Settings_ProgressBonusMaximumTooltip>
+  <IDL_Settings_CurrentThreatChance>Aktuell berechnete Wahrscheinlichkeit: {0}</IDL_Settings_CurrentThreatChance>
+  <IDL_Settings_FailedRolls>Fehlgeschlagene Würfe seit der letzten Gefahr: {0}</IDL_Settings_FailedRolls>
+  <IDL_Settings_DungeonThreatStrength>Bedrohungsstärke</IDL_Settings_DungeonThreatStrength>
+  <IDL_Settings_DungeonThreatStrengthTooltip>Multipliziert die Bedrohungspunkte des Storytellers, anhand derer die Gruppenstärke von Raidern und Entities bestimmt wird.</IDL_Settings_DungeonThreatStrengthTooltip>
+  <IDL_Settings_DungeonThreatCooldown>Gemeinsamer Cooldown in Tagen</IDL_Settings_DungeonThreatCooldown>
+  <IDL_Settings_DungeonThreatCooldownTooltip>Mindestanzahl an Ingame-Tagen nach einem Insektenbefall, einer Entity-Begegnung oder einem Überfall, bevor erneut eine dieser Dungeon-Gefahren auftreten kann.</IDL_Settings_DungeonThreatCooldownTooltip>
   <IDL_Settings_AllowDuplicates>Doppelte Gegenstände in einem Beuteergebnis erlauben</IDL_Settings_AllowDuplicates>
   <IDL_Settings_AllowDuplicatesTooltip>Wenn aktiviert, kann dieselbe Gegenstandsart in einem einzelnen Beuteergebnis mehrfach ausgewählt werden. Deaktivieren sorgt für abwechslungsreichere Beute.</IDL_Settings_AllowDuplicatesTooltip>
   <IDL_Settings_CategoryMultipliers>Beutemultiplikatoren nach Kategorie</IDL_Settings_CategoryMultipliers>
@@ -27,4 +65,16 @@
   <IDL_Settings_Drugs>Drogen</IDL_Settings_Drugs>
   <IDL_Settings_Rare>Seltene Beute</IDL_Settings_Rare>
   <IDL_Settings_ResetAdvanced>Erweiterte Einstellungen zurücksetzen</IDL_Settings_ResetAdvanced>
+  <IDL_Threat_RaidersLetterLabel>Gierige Blicke</IDL_Threat_RaidersLetterLabel>
+  <IDL_Threat_RaidersLetterText_1>Plünderer sind auf deinen Dungeon und die Schätze aufmerksam geworden, die aus seinen Tiefen geborgen werden. In der Hoffnung auf leichte Beute nähern sie sich deiner Kolonie. Bereite dich auf einen Angriff vor!</IDL_Threat_RaidersLetterText_1>
+  <IDL_Threat_RaidersLetterText_2>Deine Expeditionen sind nicht unbemerkt geblieben. Bewaffnete Plünderer sind der Spur der geborgenen Schätze bis zu deiner Kolonie gefolgt und wollen die Reichtümer des Dungeons nun an sich reißen.</IDL_Threat_RaidersLetterText_2>
+  <IDL_Threat_RaidersLetterText_3>Gerüchte über einen Zugang zu unberührten unterirdischen Gewölben haben sich verbreitet. Eine Gruppe Raider ist gekommen, um den Dungeon und alles, was aus ihm geborgen wurde, zu erbeuten.</IDL_Threat_RaidersLetterText_3>
+  <IDL_Threat_InfestationLetterLabel>Der Boden bebt</IDL_Threat_InfestationLetterLabel>
+  <IDL_Threat_InfestationLetterText_1>Die Expedition hat tief unter dem Dungeon etwas aufgeschreckt. Der Boden bricht auf, während wütende Insekten zur Oberfläche graben.</IDL_Threat_InfestationLetterText_1>
+  <IDL_Threat_InfestationLetterText_2>Die Erschütterungen aus dem Dungeon haben ein tief verborgenes Nest erreicht. Aus den Tunneln dringt ein Zirpen, das mit jeder Sekunde lauter wird.</IDL_Threat_InfestationLetterText_2>
+  <IDL_Threat_InfestationLetterText_3>Ein uralter Gang ist in einen Insektenbau eingebrochen. Die Brut ist erwacht, außer sich vor Wut und gräbt sich zum Dungeon-Eingang vor.</IDL_Threat_InfestationLetterText_3>
+  <IDL_Threat_EntitiesLetterLabel>Entities aus dem Dungeon</IDL_Threat_EntitiesLetterLabel>
+  <IDL_Threat_EntitiesLetterText_1>Die Expedition hat {0} Shamblers und {1} Ghouls aufgeschreckt. Sie sind nahe dem Dungeon-Eingang hervorgebrochen und greifen die Kolonie an!</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Schleifende Schritte und wildes Knurren hallen aus der Tiefe. {0} Shamblers und {1} Ghouls strömen aus dem Dungeon, getrieben von geistlosem Hunger.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Eine versiegelte Grabkammer wurde aufgebrochen. In der Dunkelheit regt sich totes Leben, während sich {0} Shamblers und {1} Ghouls ihren Weg zur Oberfläche bahnen.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>
