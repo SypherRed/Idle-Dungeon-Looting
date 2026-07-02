@@ -6,12 +6,19 @@
   <IDL_Update_GameplayHeader>Expéditions dans le donjon</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Les tirages de butin, la quantité d'objets et la durée de recherche peuvent désormais être ajustés. Les expéditions inachevées sont recalculées proportionnellement lorsque la durée change.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Menaces des profondeurs</IDL_Update_ThreatsHeader>
-  <IDL_Update_ThreatsText>Les infestations, pillards, shamblers et goules partagent une probabilité croissante et un délai commun. Le poids, la puissance, l'influence de la progression et la fréquence sont configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_ThreatsText>Les infestations, pillards, zombies et goules partagent une probabilité croissante et un délai commun. Le poids, la puissance, l'influence de la progression et la fréquence sont configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_DebugHeader>Outils de développement</IDL_Update_DebugHeader>
+  <IDL_Update_DebugText>Lorsque le mode développeur est activé, des actions de débogage permettent de déclencher chaque menace du donjon, d'effectuer un jet normal, d'afficher ou réinitialiser son état, de générer du butin et de rouvrir cette fenêtre.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Compatibilité</IDL_Update_CompatibilityHeader>
   <IDL_Update_CompatibilityText>Prise en charge complète de RimWorld 1.5 et 1.6, entités d'Anomaly facultatives, ainsi que paramètres et textes narratifs traduits en anglais, allemand, français et espagnol.</IDL_Update_CompatibilityText>
   <IDL_Update_Continue>Continuer</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Avancé</IDL_Settings_Advanced>
+  <IDL_Settings_TabGameplay>Jeu</IDL_Settings_TabGameplay>
+  <IDL_Settings_TabLoot>Butin</IDL_Settings_TabLoot>
+  <IDL_Settings_TabThreats>Menaces</IDL_Settings_TabThreats>
+  <IDL_Settings_ResetLoot>Réinitialiser les paramètres de butin</IDL_Settings_ResetLoot>
+  <IDL_Settings_ResetThreats>Réinitialiser les paramètres de menace</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Tirages de butin</IDL_Settings_LootAmount>
   <IDL_Settings_LootAmountTooltip>Les valeurs élevées produisent davantage de tirages et donc plus de bénéfices. Les valeurs faibles réduisent les tirages et les bénéfices. En dessous de 1x, chaque tirage a une chance proportionnelle de ne produire aucun butin.</IDL_Settings_LootAmountTooltip>
   <IDL_Settings_ItemAmount>Objets par tirage</IDL_Settings_ItemAmount>
@@ -28,8 +35,8 @@
   <IDL_Settings_DungeonThreatsEnabledTooltip>Active le jet commun de menace après chaque tâche de donjon terminée. Les infestations, les pillards et les entités utilisent tous ce jet et son délai.</IDL_Settings_DungeonThreatsEnabledTooltip>
   <IDL_Settings_RaiderThreatsEnabled>Activer les pillards</IDL_Settings_RaiderThreatsEnabled>
   <IDL_Settings_RaiderThreatsEnabledTooltip>Permet aux tâches de donjon terminées d'attirer une attaque hostile dont la puissance dépend des points de menace actuels du conteur.</IDL_Settings_RaiderThreatsEnabledTooltip>
-  <IDL_Settings_EntityThreatsEnabled>Activer les shamblers et les goules</IDL_Settings_EntityThreatsEnabled>
-  <IDL_Settings_EntityThreatsEnabledTooltip>Permet une rencontre Anomaly contenant uniquement des shamblers, uniquement des goules ou un mélange aléatoire des deux.</IDL_Settings_EntityThreatsEnabledTooltip>
+  <IDL_Settings_EntityThreatsEnabled>Activer les zombies et les goules</IDL_Settings_EntityThreatsEnabled>
+  <IDL_Settings_EntityThreatsEnabledTooltip>Permet une rencontre Anomaly contenant uniquement des zombies, uniquement des goules ou un mélange aléatoire des deux.</IDL_Settings_EntityThreatsEnabledTooltip>
   <IDL_Settings_InfestationWeight>Poids des infestations</IDL_Settings_InfestationWeight>
   <IDL_Settings_RaiderWeight>Poids des pillards</IDL_Settings_RaiderWeight>
   <IDL_Settings_EntityWeight>Poids des entités</IDL_Settings_EntityWeight>
@@ -74,7 +81,7 @@
   <IDL_Threat_InfestationLetterText_2>Les vibrations du donjon ont atteint un nid enfoui loin sous terre. Des cliquetis montent des tunnels et deviennent plus forts à chaque seconde.</IDL_Threat_InfestationLetterText_2>
   <IDL_Threat_InfestationLetterText_3>Un ancien passage s'est effondré dans une ruche d'insectes. La couvée est éveillée, furieuse, et se fraye un chemin vers l'entrée du donjon.</IDL_Threat_InfestationLetterText_3>
   <IDL_Threat_EntitiesLetterLabel>Entités du donjon</IDL_Threat_EntitiesLetterLabel>
-  <IDL_Threat_EntitiesLetterText_1>L'expédition a dérangé {0} shamblers et {1} goules. Ils ont surgi près de l'entrée du donjon et attaquent la colonie !</IDL_Threat_EntitiesLetterText_1>
-  <IDL_Threat_EntitiesLetterText_2>Des pas traînants et des grognements sauvages résonnent depuis les profondeurs. {0} shamblers et {1} goules jaillissent du donjon, poussés par une faim aveugle.</IDL_Threat_EntitiesLetterText_2>
-  <IDL_Threat_EntitiesLetterText_3>Une chambre funéraire scellée a été éventrée. La mort s'agite dans l'obscurité tandis que {0} shamblers et {1} goules se frayent un chemin vers la surface.</IDL_Threat_EntitiesLetterText_3>
+  <IDL_Threat_EntitiesLetterText_1>L'expédition a dérangé {0} zombies et {1} goules. Ils ont surgi près de l'entrée du donjon et attaquent la colonie !</IDL_Threat_EntitiesLetterText_1>
+  <IDL_Threat_EntitiesLetterText_2>Des pas traînants et des grognements sauvages résonnent depuis les profondeurs. {0} zombies et {1} goules jaillissent du donjon, poussés par une faim aveugle.</IDL_Threat_EntitiesLetterText_2>
+  <IDL_Threat_EntitiesLetterText_3>Une chambre funéraire scellée a été éventrée. La mort s'agite dans l'obscurité tandis que {0} zombies et {1} goules se frayent un chemin vers la surface.</IDL_Threat_EntitiesLetterText_3>
 </LanguageData>

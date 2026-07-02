@@ -7,11 +7,18 @@
   <IDL_Update_GameplayText>Loot rolls, item amounts, and search duration can now be adjusted. Active unfinished expeditions adapt proportionally when the duration changes.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Threats from below</IDL_Update_ThreatsHeader>
   <IDL_Update_ThreatsText>Infestations, raiders, shamblers, and ghouls share an escalating chance and cooldown system. Event weights, strength, progress influence, and frequency are configurable.</IDL_Update_ThreatsText>
+  <IDL_Update_DebugHeader>Developer tools</IDL_Update_DebugHeader>
+  <IDL_Update_DebugText>When developer mode is enabled, debug actions can trigger each dungeon threat, perform a normal threat roll, inspect or reset its state, generate loot, and reopen this update window.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Compatibility</IDL_Update_CompatibilityHeader>
   <IDL_Update_CompatibilityText>Full support for RimWorld 1.5 and 1.6, optional Anomaly entities, and translated settings and lore in English, German, French, and Spanish.</IDL_Update_CompatibilityText>
   <IDL_Update_Continue>Continue</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Advanced</IDL_Settings_Advanced>
+  <IDL_Settings_TabGameplay>Gameplay</IDL_Settings_TabGameplay>
+  <IDL_Settings_TabLoot>Loot</IDL_Settings_TabLoot>
+  <IDL_Settings_TabThreats>Threats</IDL_Settings_TabThreats>
+  <IDL_Settings_ResetLoot>Reset loot settings</IDL_Settings_ResetLoot>
+  <IDL_Settings_ResetThreats>Reset threat settings</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Loot rolls</IDL_Settings_LootAmount>
   <IDL_Settings_LootAmountTooltip>Higher values produce more loot rolls and therefore more profit. Lower values produce fewer rolls and less profit. Values below 1x use a proportional chance for a roll to produce no loot.</IDL_Settings_LootAmountTooltip>
   <IDL_Settings_ItemAmount>Items per roll</IDL_Settings_ItemAmount>
