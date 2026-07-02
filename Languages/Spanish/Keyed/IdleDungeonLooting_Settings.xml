@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting se ha instalado o actualizado para esta colonia.\n\nEsta versión añade valores configurables de botín y búsqueda, un sistema compartido de amenazas con infestaciones, saqueadores y entidades de Anomaly, una probabilidad creciente de encuentros, avisos narrativos traducidos y compatibilidad completa con RimWorld 1.5 y 1.6.\n\nTodas las opciones pueden ajustarse en Opciones > Ajustes de mods.</IDL_Update_Message>
+  <IDL_Update_Subtitle>Nuevas profundidades, tesoros y peligros.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Expediciones a la mazmorra</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Ahora pueden ajustarse las tiradas de botín, la cantidad de objetos y la duración de búsqueda. Las expediciones sin terminar se recalculan proporcionalmente cuando cambia la duración.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Amenazas de las profundidades</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Las infestaciones, los saqueadores, los shamblers y los ghouls comparten una probabilidad creciente y un tiempo de espera. El peso, la fuerza, la influencia del progreso y la frecuencia son configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Compatibilidad</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Compatibilidad completa con RimWorld 1.5 y 1.6, entidades opcionales de Anomaly y ajustes y textos narrativos traducidos al inglés, alemán, francés y español.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Continuar</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Avanzado</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Tiradas de botín</IDL_Settings_LootAmount>

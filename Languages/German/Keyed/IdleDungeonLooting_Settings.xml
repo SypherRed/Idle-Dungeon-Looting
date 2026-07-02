@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting wurde für diese Kolonie installiert oder aktualisiert.\n\nDiese Version ergänzt konfigurierbare Beute- und Suchwerte, ein gemeinsames Dungeon-Gefahrensystem mit Insektenbefällen, Raidern und Anomaly-Entities, eine ansteigende Begegnungswahrscheinlichkeit, übersetzte Lore-Nachrichten sowie vollständige Unterstützung für RimWorld 1.5 und 1.6.\n\nAlle Optionen können unter Optionen > Mod-Einstellungen angepasst werden.</IDL_Update_Message>
+  <IDL_Update_Subtitle>Neue Tiefen. Neue Schätze. Neue Gefahren.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Dungeon-Expeditionen</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Beutewürfe, Gegenstandsmengen und Suchdauer können jetzt angepasst werden. Laufende unfertige Expeditionen werden bei einer geänderten Suchdauer proportional umgerechnet.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Gefahren aus der Tiefe</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Insektenbefälle, Raider, Shamblers und Ghouls teilen sich eine ansteigende Wahrscheinlichkeit und einen gemeinsamen Cooldown. Gewichtung, Stärke, Fortschrittseinfluss und Häufigkeit sind konfigurierbar.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Kompatibilität</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Vollständige Unterstützung für RimWorld 1.5 und 1.6, optionale Anomaly-Entities sowie übersetzte Einstellungen und Lore-Texte auf Englisch, Deutsch, Französisch und Spanisch.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Fortfahren</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Erweitert</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Beutewürfe</IDL_Settings_LootAmount>

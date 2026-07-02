@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting was installed or updated for this colony.\n\nThis version adds configurable loot and search values, a shared dungeon-threat system with infestations, raiders and Anomaly entities, escalating encounter chances, translated lore notifications, and full RimWorld 1.5 and 1.6 support.\n\nAll options can be adjusted under Options > Mod settings.</IDL_Update_Message>
+  <IDL_Update_Subtitle>New depths. New rewards. New dangers.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Dungeon expeditions</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Loot rolls, item amounts, and search duration can now be adjusted. Active unfinished expeditions adapt proportionally when the duration changes.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Threats from below</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Infestations, raiders, shamblers, and ghouls share an escalating chance and cooldown system. Event weights, strength, progress influence, and frequency are configurable.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Compatibility</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Full support for RimWorld 1.5 and 1.6, optional Anomaly entities, and translated settings and lore in English, German, French, and Spanish.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Continue</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Advanced</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Loot rolls</IDL_Settings_LootAmount>

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
+  <IDL_Update_Message>Idle Dungeon Looting a été installé ou mis à jour pour cette colonie.\n\nCette version ajoute des valeurs de butin et de recherche configurables, un système commun de menaces avec infestations, pillards et entités d'Anomaly, une probabilité de rencontre croissante, des notifications narratives traduites et une prise en charge complète de RimWorld 1.5 et 1.6.\n\nToutes les options sont disponibles dans Options > Paramètres des mods.</IDL_Update_Message>
+  <IDL_Update_Subtitle>De nouvelles profondeurs, richesses et menaces.</IDL_Update_Subtitle>
+  <IDL_Update_GameplayHeader>Expéditions dans le donjon</IDL_Update_GameplayHeader>
+  <IDL_Update_GameplayText>Les tirages de butin, la quantité d'objets et la durée de recherche peuvent désormais être ajustés. Les expéditions inachevées sont recalculées proportionnellement lorsque la durée change.</IDL_Update_GameplayText>
+  <IDL_Update_ThreatsHeader>Menaces des profondeurs</IDL_Update_ThreatsHeader>
+  <IDL_Update_ThreatsText>Les infestations, pillards, shamblers et goules partagent une probabilité croissante et un délai commun. Le poids, la puissance, l'influence de la progression et la fréquence sont configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_CompatibilityHeader>Compatibilité</IDL_Update_CompatibilityHeader>
+  <IDL_Update_CompatibilityText>Prise en charge complète de RimWorld 1.5 et 1.6, entités d'Anomaly facultatives, ainsi que paramètres et textes narratifs traduits en anglais, allemand, français et espagnol.</IDL_Update_CompatibilityText>
+  <IDL_Update_Continue>Continuer</IDL_Update_Continue>
   <IDL_Settings_Global>Global</IDL_Settings_Global>
   <IDL_Settings_Advanced>Avancé</IDL_Settings_Advanced>
   <IDL_Settings_LootAmount>Tirages de butin</IDL_Settings_LootAmount>
