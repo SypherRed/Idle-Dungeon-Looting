@@ -7,6 +7,8 @@
   <IDL_Update_GameplayText>Ahora pueden ajustarse las tiradas de botín, la cantidad de objetos y la duración de búsqueda. Las expediciones sin terminar se recalculan proporcionalmente cuando cambia la duración.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Amenazas de las profundidades</IDL_Update_ThreatsHeader>
   <IDL_Update_ThreatsText>Las infestaciones, los saqueadores, los caminantes y los necrófagos comparten una probabilidad creciente y un tiempo de espera. El peso, la fuerza, la influencia del progreso y la frecuencia son configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_ItemPoolHeader>Grupos de botín ampliados</IDL_Update_ItemPoolHeader>
+  <IDL_Update_ItemPoolText>Los DLC instalados y otros mods ahora pueden aportar objetos a las categorías de botín de mazmorra correspondientes. Un gestor con búsqueda permite incluir o excluir objetos concretos.</IDL_Update_ItemPoolText>
   <IDL_Update_DebugHeader>Herramientas de desarrollo</IDL_Update_DebugHeader>
   <IDL_Update_DebugText>Con el modo desarrollador activado, las acciones de depuración permiten provocar cada amenaza de la mazmorra, realizar una tirada normal, mostrar o restablecer su estado, generar botín y volver a abrir esta ventana.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Compatibilidad</IDL_Update_CompatibilityHeader>
@@ -17,6 +19,24 @@
   <IDL_Settings_TabGameplay>Juego</IDL_Settings_TabGameplay>
   <IDL_Settings_TabLoot>Botín</IDL_Settings_TabLoot>
   <IDL_Settings_TabThreats>Amenazas</IDL_Settings_TabThreats>
+  <IDL_Settings_TabItemPool>Objetos</IDL_Settings_TabItemPool>
+  <IDL_Settings_ItemPoolSourcesHeader>Fuentes de botín</IDL_Settings_ItemPoolSourcesHeader>
+  <IDL_Settings_ItemPoolSourcesDescription>Activa las fuentes instaladas cuyos objetos adecuados podrán aparecer en las búsquedas de mazmorra correspondientes.</IDL_Settings_ItemPoolSourcesDescription>
+  <IDL_Settings_DlcItemsEnabled>Permitir objetos de {0}</IDL_Settings_DlcItemsEnabled>
+  <IDL_Settings_DlcItemsEnabledTooltip>Añade los objetos adecuados de {0} a las categorías de botín de mazmorra correspondientes.</IDL_Settings_DlcItemsEnabledTooltip>
+  <IDL_Settings_ModItemsEnabled>Permitir objetos de otros mods</IDL_Settings_ModItemsEnabled>
+  <IDL_Settings_ModItemsEnabledTooltip>Añade automáticamente objetos adecuados de mods activos no oficiales. Los objetos individuales aún pueden excluirse.</IDL_Settings_ModItemsEnabledTooltip>
+  <IDL_Settings_ManualItemPoolDescription>Gestiona objetos individuales para cada categoría de botín. Las selecciones manuales prevalecen sobre las reglas automáticas de fuente y categoría.</IDL_Settings_ManualItemPoolDescription>
+  <IDL_Settings_ManageItemPool>Gestionar objetos individuales</IDL_Settings_ManageItemPool>
+  <IDL_Settings_ResetItemPool>Restablecer grupo de objetos</IDL_Settings_ResetItemPool>
+  <IDL_ItemPool_Title>Grupo de objetos de la mazmorra</IDL_ItemPool_Title>
+  <IDL_ItemPool_ResultCount>{0} objetos coincidentes</IDL_ItemPool_ResultCount>
+  <IDL_ItemPool_ResetCategory>Restablecer categoría</IDL_ItemPool_ResetCategory>
+  <IDL_ItemPool_StateDefault>Predeterminado</IDL_ItemPool_StateDefault>
+  <IDL_ItemPool_StateIncluded>Incluir</IDL_ItemPool_StateIncluded>
+  <IDL_ItemPool_StateExcluded>Excluir</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_AutomaticIncluded>Este objeto está incluido por el grupo predeterminado o por los ajustes de fuente actuales.</IDL_ItemPool_AutomaticIncluded>
+  <IDL_ItemPool_AutomaticExcluded>Este objeto no se añade automáticamente con las reglas actuales de fuente y categoría.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Restablecer ajustes de botín</IDL_Settings_ResetLoot>
   <IDL_Settings_ResetThreats>Restablecer ajustes de amenazas</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Tiradas de botín</IDL_Settings_LootAmount>

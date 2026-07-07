@@ -7,6 +7,8 @@
   <IDL_Update_GameplayText>Loot rolls, item amounts, and search duration can now be adjusted. Active unfinished expeditions adapt proportionally when the duration changes.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Threats from below</IDL_Update_ThreatsHeader>
   <IDL_Update_ThreatsText>Infestations, raiders, shamblers, and ghouls share an escalating chance and cooldown system. Event weights, strength, progress influence, and frequency are configurable.</IDL_Update_ThreatsText>
+  <IDL_Update_ItemPoolHeader>Expanded loot pools</IDL_Update_ItemPoolHeader>
+  <IDL_Update_ItemPoolText>Installed DLCs and other mods can now contribute items to matching dungeon loot categories. A searchable manager allows individual items to be explicitly included or excluded.</IDL_Update_ItemPoolText>
   <IDL_Update_DebugHeader>Developer tools</IDL_Update_DebugHeader>
   <IDL_Update_DebugText>When developer mode is enabled, debug actions can trigger each dungeon threat, perform a normal threat roll, inspect or reset its state, generate loot, and reopen this update window.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Compatibility</IDL_Update_CompatibilityHeader>
@@ -17,6 +19,24 @@
   <IDL_Settings_TabGameplay>Gameplay</IDL_Settings_TabGameplay>
   <IDL_Settings_TabLoot>Loot</IDL_Settings_TabLoot>
   <IDL_Settings_TabThreats>Threats</IDL_Settings_TabThreats>
+  <IDL_Settings_TabItemPool>Item pool</IDL_Settings_TabItemPool>
+  <IDL_Settings_ItemPoolSourcesHeader>Loot sources</IDL_Settings_ItemPoolSourcesHeader>
+  <IDL_Settings_ItemPoolSourcesDescription>Enable installed content sources whose suitable items may appear in matching dungeon searches.</IDL_Settings_ItemPoolSourcesDescription>
+  <IDL_Settings_DlcItemsEnabled>Allow {0} items</IDL_Settings_DlcItemsEnabled>
+  <IDL_Settings_DlcItemsEnabledTooltip>Adds suitable items from {0} to their matching dungeon loot categories.</IDL_Settings_DlcItemsEnabledTooltip>
+  <IDL_Settings_ModItemsEnabled>Allow items from other mods</IDL_Settings_ModItemsEnabled>
+  <IDL_Settings_ModItemsEnabledTooltip>Automatically adds suitable items from active non-official mods. Individual items can still be excluded.</IDL_Settings_ModItemsEnabledTooltip>
+  <IDL_Settings_ManualItemPoolDescription>Manage individual items for each dungeon loot category. Manual choices override automatic source and category rules.</IDL_Settings_ManualItemPoolDescription>
+  <IDL_Settings_ManageItemPool>Manage individual items</IDL_Settings_ManageItemPool>
+  <IDL_Settings_ResetItemPool>Reset item pool settings</IDL_Settings_ResetItemPool>
+  <IDL_ItemPool_Title>Dungeon item pool</IDL_ItemPool_Title>
+  <IDL_ItemPool_ResultCount>{0} matching items</IDL_ItemPool_ResultCount>
+  <IDL_ItemPool_ResetCategory>Reset category</IDL_ItemPool_ResetCategory>
+  <IDL_ItemPool_StateDefault>Default</IDL_ItemPool_StateDefault>
+  <IDL_ItemPool_StateIncluded>Include</IDL_ItemPool_StateIncluded>
+  <IDL_ItemPool_StateExcluded>Exclude</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_AutomaticIncluded>This item is included by the current default pool or source settings.</IDL_ItemPool_AutomaticIncluded>
+  <IDL_ItemPool_AutomaticExcluded>This item is not included automatically with the current source and category settings.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Reset loot settings</IDL_Settings_ResetLoot>
   <IDL_Settings_ResetThreats>Reset threat settings</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Loot rolls</IDL_Settings_LootAmount>
