@@ -35,6 +35,13 @@
   <IDL_ItemPool_StateDefault>Par défaut</IDL_ItemPool_StateDefault>
   <IDL_ItemPool_StateIncluded>Inclure</IDL_ItemPool_StateIncluded>
   <IDL_ItemPool_StateExcluded>Exclure</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_ViewActiveInCategory>Catégorie active</IDL_ItemPool_ViewActiveInCategory>
+  <IDL_ItemPool_ViewAllItems>Tous les objets</IDL_ItemPool_ViewAllItems>
+  <IDL_ItemPool_ViewManualOverrides>Choix manuels</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_EffectiveAutomatic>Dans la réserve</IDL_ItemPool_EffectiveAutomatic>
+  <IDL_ItemPool_EffectiveIncluded>Forcé</IDL_ItemPool_EffectiveIncluded>
+  <IDL_ItemPool_EffectiveExcluded>Exclu</IDL_ItemPool_EffectiveExcluded>
+  <IDL_ItemPool_EffectiveInactive>Inactif</IDL_ItemPool_EffectiveInactive>
   <IDL_ItemPool_AutomaticIncluded>Cet objet est inclus par la réserve par défaut ou les paramètres de source actuels.</IDL_ItemPool_AutomaticIncluded>
   <IDL_ItemPool_AutomaticExcluded>Cet objet n'est pas ajouté automatiquement avec les règles actuelles de source et de catégorie.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Réinitialiser les paramètres de butin</IDL_Settings_ResetLoot>

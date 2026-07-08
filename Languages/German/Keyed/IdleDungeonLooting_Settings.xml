@@ -35,6 +35,13 @@
   <IDL_ItemPool_StateDefault>Standard</IDL_ItemPool_StateDefault>
   <IDL_ItemPool_StateIncluded>Erlauben</IDL_ItemPool_StateIncluded>
   <IDL_ItemPool_StateExcluded>Ausschließen</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_ViewActiveInCategory>Aktive Kategorie</IDL_ItemPool_ViewActiveInCategory>
+  <IDL_ItemPool_ViewAllItems>Alle Gegenstände</IDL_ItemPool_ViewAllItems>
+  <IDL_ItemPool_ViewManualOverrides>Manuelle Änderungen</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_EffectiveAutomatic>Im Pool</IDL_ItemPool_EffectiveAutomatic>
+  <IDL_ItemPool_EffectiveIncluded>Erzwungen</IDL_ItemPool_EffectiveIncluded>
+  <IDL_ItemPool_EffectiveExcluded>Ausgeschlossen</IDL_ItemPool_EffectiveExcluded>
+  <IDL_ItemPool_EffectiveInactive>Nicht aktiv</IDL_ItemPool_EffectiveInactive>
   <IDL_ItemPool_AutomaticIncluded>Dieser Gegenstand ist durch den Standardpool oder die aktuellen Quelleinstellungen enthalten.</IDL_ItemPool_AutomaticIncluded>
   <IDL_ItemPool_AutomaticExcluded>Dieser Gegenstand wird mit den aktuellen Quellen- und Kategorieregeln nicht automatisch hinzugefügt.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Beuteeinstellungen zurücksetzen</IDL_Settings_ResetLoot>
