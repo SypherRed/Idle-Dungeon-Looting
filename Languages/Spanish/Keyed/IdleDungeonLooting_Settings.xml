@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
-  <IDL_Update_Message>Idle Dungeon Looting se ha instalado o actualizado para esta colonia.\n\nEsta versión añade valores configurables de botín y búsqueda, un sistema compartido de amenazas con infestaciones, saqueadores y entidades de Anomaly, una probabilidad creciente de encuentros, avisos narrativos traducidos y compatibilidad completa con RimWorld 1.5 y 1.6.\n\nTodas las opciones pueden ajustarse en Opciones > Ajustes de mods.</IDL_Update_Message>
+  <IDL_Update_Message>Idle Dungeon Looting se ha instalado o actualizado para esta colonia.\n\nEsta ventana solo muestra los últimos cambios importantes dentro del juego. El historial completo está disponible en el changelog de Steam.</IDL_Update_Message>
   <IDL_Update_Subtitle>Nuevas profundidades, tesoros y peligros.</IDL_Update_Subtitle>
+  <IDL_Update_CurrentHeader>Actualización actual</IDL_Update_CurrentHeader>
+  <IDL_Update_CurrentText>El gestor de grupos de objetos ahora muestra con más claridad qué objetos están realmente activos en la categoría de botín seleccionada. Los objetos de DLC y mods añadidos automáticamente se asignan solo a una categoría preferida, para que los materiales de construcción no aparezcan también como materiales de fabricación.</IDL_Update_CurrentText>
+  <IDL_Update_PreviousHeader>Actualización anterior</IDL_Update_PreviousHeader>
+  <IDL_Update_PreviousText>La versión 1.3.1 amplió las amenazas de la mazmorra: los caminantes y necrófagos pueden aparecer como entidades de Anomaly desde la mazmorra, los saqueadores y entidades tienen sus propias opciones de mod, y el modo desarrollador incluye acciones de depuración para probar estos eventos.</IDL_Update_PreviousText>
+  <IDL_Update_SteamHeader>Cambios anteriores</IDL_Update_SteamHeader>
+  <IDL_Update_SteamText>Los cambios anteriores están en el changelog de Steam:\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/3753897816</IDL_Update_SteamText>
   <IDL_Update_GameplayHeader>Expediciones a la mazmorra</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Ahora pueden ajustarse las tiradas de botín, la cantidad de objetos y la duración de búsqueda. Las expediciones sin terminar se recalculan proporcionalmente cuando cambia la duración.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Amenazas de las profundidades</IDL_Update_ThreatsHeader>
   <IDL_Update_ThreatsText>Las infestaciones, los saqueadores, los caminantes y los necrófagos comparten una probabilidad creciente y un tiempo de espera. El peso, la fuerza, la influencia del progreso y la frecuencia son configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_ItemPoolHeader>Grupos de botín ampliados</IDL_Update_ItemPoolHeader>
+  <IDL_Update_ItemPoolText>Los DLC instalados y otros mods ahora pueden aportar objetos a las categorías de botín de mazmorra correspondientes. Un gestor con búsqueda permite incluir o excluir objetos concretos.</IDL_Update_ItemPoolText>
   <IDL_Update_DebugHeader>Herramientas de desarrollo</IDL_Update_DebugHeader>
   <IDL_Update_DebugText>Con el modo desarrollador activado, las acciones de depuración permiten provocar cada amenaza de la mazmorra, realizar una tirada normal, mostrar o restablecer su estado, generar botín y volver a abrir esta ventana.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Compatibilidad</IDL_Update_CompatibilityHeader>
@@ -17,6 +25,31 @@
   <IDL_Settings_TabGameplay>Juego</IDL_Settings_TabGameplay>
   <IDL_Settings_TabLoot>Botín</IDL_Settings_TabLoot>
   <IDL_Settings_TabThreats>Amenazas</IDL_Settings_TabThreats>
+  <IDL_Settings_TabItemPool>Objetos</IDL_Settings_TabItemPool>
+  <IDL_Settings_ItemPoolSourcesHeader>Fuentes de botín</IDL_Settings_ItemPoolSourcesHeader>
+  <IDL_Settings_ItemPoolSourcesDescription>Activa las fuentes instaladas cuyos objetos adecuados podrán aparecer en las búsquedas de mazmorra correspondientes.</IDL_Settings_ItemPoolSourcesDescription>
+  <IDL_Settings_DlcItemsEnabled>Permitir objetos de {0}</IDL_Settings_DlcItemsEnabled>
+  <IDL_Settings_DlcItemsEnabledTooltip>Añade los objetos adecuados de {0} a las categorías de botín de mazmorra correspondientes.</IDL_Settings_DlcItemsEnabledTooltip>
+  <IDL_Settings_ModItemsEnabled>Permitir objetos de otros mods</IDL_Settings_ModItemsEnabled>
+  <IDL_Settings_ModItemsEnabledTooltip>Añade automáticamente objetos adecuados de mods activos no oficiales. Los objetos individuales aún pueden excluirse.</IDL_Settings_ModItemsEnabledTooltip>
+  <IDL_Settings_ManualItemPoolDescription>Gestiona objetos individuales para cada categoría de botín. Las selecciones manuales prevalecen sobre las reglas automáticas de fuente y categoría.</IDL_Settings_ManualItemPoolDescription>
+  <IDL_Settings_ManageItemPool>Gestionar objetos individuales</IDL_Settings_ManageItemPool>
+  <IDL_Settings_ResetItemPool>Restablecer grupo de objetos</IDL_Settings_ResetItemPool>
+  <IDL_ItemPool_Title>Grupo de objetos de la mazmorra</IDL_ItemPool_Title>
+  <IDL_ItemPool_ResultCount>{0} objetos coincidentes</IDL_ItemPool_ResultCount>
+  <IDL_ItemPool_ResetCategory>Restablecer categoría</IDL_ItemPool_ResetCategory>
+  <IDL_ItemPool_StateDefault>Predeterminado</IDL_ItemPool_StateDefault>
+  <IDL_ItemPool_StateIncluded>Incluir</IDL_ItemPool_StateIncluded>
+  <IDL_ItemPool_StateExcluded>Excluir</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_ViewActiveInCategory>Categoría activa</IDL_ItemPool_ViewActiveInCategory>
+  <IDL_ItemPool_ViewAllItems>Todos los objetos</IDL_ItemPool_ViewAllItems>
+  <IDL_ItemPool_ViewManualOverrides>Cambios manuales</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_EffectiveAutomatic>En el grupo</IDL_ItemPool_EffectiveAutomatic>
+  <IDL_ItemPool_EffectiveIncluded>Forzado</IDL_ItemPool_EffectiveIncluded>
+  <IDL_ItemPool_EffectiveExcluded>Excluido</IDL_ItemPool_EffectiveExcluded>
+  <IDL_ItemPool_EffectiveInactive>Inactivo</IDL_ItemPool_EffectiveInactive>
+  <IDL_ItemPool_AutomaticIncluded>Este objeto está incluido por el grupo predeterminado o por los ajustes de fuente actuales.</IDL_ItemPool_AutomaticIncluded>
+  <IDL_ItemPool_AutomaticExcluded>Este objeto no se añade automáticamente con las reglas actuales de fuente y categoría.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Restablecer ajustes de botín</IDL_Settings_ResetLoot>
   <IDL_Settings_ResetThreats>Restablecer ajustes de amenazas</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Tiradas de botín</IDL_Settings_LootAmount>

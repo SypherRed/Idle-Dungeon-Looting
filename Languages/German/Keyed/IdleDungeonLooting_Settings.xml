@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
-  <IDL_Update_Message>Idle Dungeon Looting wurde für diese Kolonie installiert oder aktualisiert.\n\nDiese Version ergänzt konfigurierbare Beute- und Suchwerte, ein gemeinsames Dungeon-Gefahrensystem mit Insektenbefällen, Raidern und Anomaly-Entities, eine ansteigende Begegnungswahrscheinlichkeit, übersetzte Lore-Nachrichten sowie vollständige Unterstützung für RimWorld 1.5 und 1.6.\n\nAlle Optionen können unter Optionen > Mod-Einstellungen angepasst werden.</IDL_Update_Message>
+  <IDL_Update_Message>Idle Dungeon Looting wurde für diese Kolonie installiert oder aktualisiert.\n\nDieses Fenster zeigt nur die letzten wichtigen Ingame-Änderungen. Die vollständige Historie findest du im Steam-Changelog.</IDL_Update_Message>
   <IDL_Update_Subtitle>Neue Tiefen. Neue Schätze. Neue Gefahren.</IDL_Update_Subtitle>
+  <IDL_Update_CurrentHeader>Aktuelles Update</IDL_Update_CurrentHeader>
+  <IDL_Update_CurrentText>Die Gegenstandspool-Verwaltung zeigt jetzt klarer, welche Gegenstände in der gewählten Beutekategorie wirklich aktiv sind. Automatisch geladene DLC- und Mod-Gegenstände werden nur noch einer bevorzugten Kategorie zugeordnet, damit z.B. Baumaterialien nicht zusätzlich als Handwerksmaterialien auftauchen.</IDL_Update_CurrentText>
+  <IDL_Update_PreviousHeader>Vorheriges Update</IDL_Update_PreviousHeader>
+  <IDL_Update_PreviousText>Version 1.3.1 hat die Dungeon-Gefahren erweitert: Schlurfer und Ghule können als Anomaly-Entities aus dem Dungeon erscheinen, Raider und Entities nutzen eigene Mod-Optionen, und im Entwicklermodus stehen Debug-Befehle zum Testen der Ereignisse bereit.</IDL_Update_PreviousText>
+  <IDL_Update_SteamHeader>Ältere Änderungen</IDL_Update_SteamHeader>
+  <IDL_Update_SteamText>Weitere ältere Änderungen stehen im Steam-Changelog:\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/3753897816</IDL_Update_SteamText>
   <IDL_Update_GameplayHeader>Dungeon-Expeditionen</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Beutewürfe, Gegenstandsmengen und Suchdauer können jetzt angepasst werden. Laufende unfertige Expeditionen werden bei einer geänderten Suchdauer proportional umgerechnet.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Gefahren aus der Tiefe</IDL_Update_ThreatsHeader>
   <IDL_Update_ThreatsText>Insektenbefälle, Raider, Schlurfer und Ghule teilen sich eine ansteigende Wahrscheinlichkeit und einen gemeinsamen Cooldown. Gewichtung, Stärke, Fortschrittseinfluss und Häufigkeit sind konfigurierbar.</IDL_Update_ThreatsText>
+  <IDL_Update_ItemPoolHeader>Erweiterte Beutepools</IDL_Update_ItemPoolHeader>
+  <IDL_Update_ItemPoolText>Installierte DLCs und andere Mods können nun Gegenstände zu passenden Dungeon-Beutekategorien beitragen. Einzelne Gegenstände lassen sich über eine durchsuchbare Verwaltung ausdrücklich zulassen oder ausschließen.</IDL_Update_ItemPoolText>
   <IDL_Update_DebugHeader>Entwicklerwerkzeuge</IDL_Update_DebugHeader>
   <IDL_Update_DebugText>Bei aktiviertem Entwicklermodus können Debug-Befehle jede Dungeon-Gefahr auslösen, einen normalen Gefahrenwurf durchführen, dessen Status anzeigen oder zurücksetzen, Beute erzeugen und dieses Update-Fenster erneut öffnen.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Kompatibilität</IDL_Update_CompatibilityHeader>
@@ -17,6 +25,31 @@
   <IDL_Settings_TabGameplay>Gameplay</IDL_Settings_TabGameplay>
   <IDL_Settings_TabLoot>Beute</IDL_Settings_TabLoot>
   <IDL_Settings_TabThreats>Gefahren</IDL_Settings_TabThreats>
+  <IDL_Settings_TabItemPool>Gegenstände</IDL_Settings_TabItemPool>
+  <IDL_Settings_ItemPoolSourcesHeader>Beutequellen</IDL_Settings_ItemPoolSourcesHeader>
+  <IDL_Settings_ItemPoolSourcesDescription>Aktiviere installierte Inhaltsquellen, deren geeignete Gegenstände bei passenden Dungeon-Suchen gefunden werden dürfen.</IDL_Settings_ItemPoolSourcesDescription>
+  <IDL_Settings_DlcItemsEnabled>{0}-Gegenstände erlauben</IDL_Settings_DlcItemsEnabled>
+  <IDL_Settings_DlcItemsEnabledTooltip>Fügt geeignete Gegenstände aus {0} den jeweils passenden Dungeon-Beutekategorien hinzu.</IDL_Settings_DlcItemsEnabledTooltip>
+  <IDL_Settings_ModItemsEnabled>Gegenstände aus anderen Mods erlauben</IDL_Settings_ModItemsEnabled>
+  <IDL_Settings_ModItemsEnabledTooltip>Fügt automatisch geeignete Gegenstände aus aktiven, nicht offiziellen Mods hinzu. Einzelne Gegenstände können weiterhin ausgeschlossen werden.</IDL_Settings_ModItemsEnabledTooltip>
+  <IDL_Settings_ManualItemPoolDescription>Verwalte einzelne Gegenstände je Dungeon-Beutekategorie. Manuelle Festlegungen überschreiben die automatischen Quellen- und Kategorieregeln.</IDL_Settings_ManualItemPoolDescription>
+  <IDL_Settings_ManageItemPool>Einzelne Gegenstände verwalten</IDL_Settings_ManageItemPool>
+  <IDL_Settings_ResetItemPool>Gegenstandspool zurücksetzen</IDL_Settings_ResetItemPool>
+  <IDL_ItemPool_Title>Dungeon-Gegenstandspool</IDL_ItemPool_Title>
+  <IDL_ItemPool_ResultCount>{0} passende Gegenstände</IDL_ItemPool_ResultCount>
+  <IDL_ItemPool_ResetCategory>Kategorie zurücksetzen</IDL_ItemPool_ResetCategory>
+  <IDL_ItemPool_StateDefault>Standard</IDL_ItemPool_StateDefault>
+  <IDL_ItemPool_StateIncluded>Erlauben</IDL_ItemPool_StateIncluded>
+  <IDL_ItemPool_StateExcluded>Ausschließen</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_ViewActiveInCategory>Aktive Kategorie</IDL_ItemPool_ViewActiveInCategory>
+  <IDL_ItemPool_ViewAllItems>Alle Gegenstände</IDL_ItemPool_ViewAllItems>
+  <IDL_ItemPool_ViewManualOverrides>Manuelle Änderungen</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_EffectiveAutomatic>Im Pool</IDL_ItemPool_EffectiveAutomatic>
+  <IDL_ItemPool_EffectiveIncluded>Erzwungen</IDL_ItemPool_EffectiveIncluded>
+  <IDL_ItemPool_EffectiveExcluded>Ausgeschlossen</IDL_ItemPool_EffectiveExcluded>
+  <IDL_ItemPool_EffectiveInactive>Nicht aktiv</IDL_ItemPool_EffectiveInactive>
+  <IDL_ItemPool_AutomaticIncluded>Dieser Gegenstand ist durch den Standardpool oder die aktuellen Quelleinstellungen enthalten.</IDL_ItemPool_AutomaticIncluded>
+  <IDL_ItemPool_AutomaticExcluded>Dieser Gegenstand wird mit den aktuellen Quellen- und Kategorieregeln nicht automatisch hinzugefügt.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Beuteeinstellungen zurücksetzen</IDL_Settings_ResetLoot>
   <IDL_Settings_ResetThreats>Gefahrseinstellungen zurücksetzen</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Beutewürfe</IDL_Settings_LootAmount>

@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
-  <IDL_Update_Message>Idle Dungeon Looting was installed or updated for this colony.\n\nThis version adds configurable loot and search values, a shared dungeon-threat system with infestations, raiders and Anomaly entities, escalating encounter chances, translated lore notifications, and full RimWorld 1.5 and 1.6 support.\n\nAll options can be adjusted under Options > Mod settings.</IDL_Update_Message>
+  <IDL_Update_Message>Idle Dungeon Looting was installed or updated for this colony.\n\nThis window only shows the latest important in-game changes. The full history is available in the Steam changelog.</IDL_Update_Message>
   <IDL_Update_Subtitle>New depths. New rewards. New dangers.</IDL_Update_Subtitle>
+  <IDL_Update_CurrentHeader>Current update</IDL_Update_CurrentHeader>
+  <IDL_Update_CurrentText>The item pool manager now makes it clearer which items are actually active in the selected loot category. Automatically loaded DLC and mod items are assigned to one preferred category only, so building materials no longer also appear as crafting materials.</IDL_Update_CurrentText>
+  <IDL_Update_PreviousHeader>Previous update</IDL_Update_PreviousHeader>
+  <IDL_Update_PreviousText>Version 1.3.1 expanded dungeon threats: shamblers and ghouls can appear as Anomaly entities from the dungeon, raiders and entities have dedicated mod options, and developer mode includes debug actions for testing these events.</IDL_Update_PreviousText>
+  <IDL_Update_SteamHeader>Older changes</IDL_Update_SteamHeader>
+  <IDL_Update_SteamText>Older changes are listed in the Steam changelog:\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/3753897816</IDL_Update_SteamText>
   <IDL_Update_GameplayHeader>Dungeon expeditions</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Loot rolls, item amounts, and search duration can now be adjusted. Active unfinished expeditions adapt proportionally when the duration changes.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Threats from below</IDL_Update_ThreatsHeader>
   <IDL_Update_ThreatsText>Infestations, raiders, shamblers, and ghouls share an escalating chance and cooldown system. Event weights, strength, progress influence, and frequency are configurable.</IDL_Update_ThreatsText>
+  <IDL_Update_ItemPoolHeader>Expanded loot pools</IDL_Update_ItemPoolHeader>
+  <IDL_Update_ItemPoolText>Installed DLCs and other mods can now contribute items to matching dungeon loot categories. A searchable manager allows individual items to be explicitly included or excluded.</IDL_Update_ItemPoolText>
   <IDL_Update_DebugHeader>Developer tools</IDL_Update_DebugHeader>
   <IDL_Update_DebugText>When developer mode is enabled, debug actions can trigger each dungeon threat, perform a normal threat roll, inspect or reset its state, generate loot, and reopen this update window.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Compatibility</IDL_Update_CompatibilityHeader>
@@ -17,6 +25,31 @@
   <IDL_Settings_TabGameplay>Gameplay</IDL_Settings_TabGameplay>
   <IDL_Settings_TabLoot>Loot</IDL_Settings_TabLoot>
   <IDL_Settings_TabThreats>Threats</IDL_Settings_TabThreats>
+  <IDL_Settings_TabItemPool>Item pool</IDL_Settings_TabItemPool>
+  <IDL_Settings_ItemPoolSourcesHeader>Loot sources</IDL_Settings_ItemPoolSourcesHeader>
+  <IDL_Settings_ItemPoolSourcesDescription>Enable installed content sources whose suitable items may appear in matching dungeon searches.</IDL_Settings_ItemPoolSourcesDescription>
+  <IDL_Settings_DlcItemsEnabled>Allow {0} items</IDL_Settings_DlcItemsEnabled>
+  <IDL_Settings_DlcItemsEnabledTooltip>Adds suitable items from {0} to their matching dungeon loot categories.</IDL_Settings_DlcItemsEnabledTooltip>
+  <IDL_Settings_ModItemsEnabled>Allow items from other mods</IDL_Settings_ModItemsEnabled>
+  <IDL_Settings_ModItemsEnabledTooltip>Automatically adds suitable items from active non-official mods. Individual items can still be excluded.</IDL_Settings_ModItemsEnabledTooltip>
+  <IDL_Settings_ManualItemPoolDescription>Manage individual items for each dungeon loot category. Manual choices override automatic source and category rules.</IDL_Settings_ManualItemPoolDescription>
+  <IDL_Settings_ManageItemPool>Manage individual items</IDL_Settings_ManageItemPool>
+  <IDL_Settings_ResetItemPool>Reset item pool settings</IDL_Settings_ResetItemPool>
+  <IDL_ItemPool_Title>Dungeon item pool</IDL_ItemPool_Title>
+  <IDL_ItemPool_ResultCount>{0} matching items</IDL_ItemPool_ResultCount>
+  <IDL_ItemPool_ResetCategory>Reset category</IDL_ItemPool_ResetCategory>
+  <IDL_ItemPool_StateDefault>Default</IDL_ItemPool_StateDefault>
+  <IDL_ItemPool_StateIncluded>Include</IDL_ItemPool_StateIncluded>
+  <IDL_ItemPool_StateExcluded>Exclude</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_ViewActiveInCategory>Active category</IDL_ItemPool_ViewActiveInCategory>
+  <IDL_ItemPool_ViewAllItems>All items</IDL_ItemPool_ViewAllItems>
+  <IDL_ItemPool_ViewManualOverrides>Manual changes</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_EffectiveAutomatic>In pool</IDL_ItemPool_EffectiveAutomatic>
+  <IDL_ItemPool_EffectiveIncluded>Forced in</IDL_ItemPool_EffectiveIncluded>
+  <IDL_ItemPool_EffectiveExcluded>Excluded</IDL_ItemPool_EffectiveExcluded>
+  <IDL_ItemPool_EffectiveInactive>Not active</IDL_ItemPool_EffectiveInactive>
+  <IDL_ItemPool_AutomaticIncluded>This item is included by the current default pool or source settings.</IDL_ItemPool_AutomaticIncluded>
+  <IDL_ItemPool_AutomaticExcluded>This item is not included automatically with the current source and category settings.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Reset loot settings</IDL_Settings_ResetLoot>
   <IDL_Settings_ResetThreats>Reset threat settings</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Loot rolls</IDL_Settings_LootAmount>

@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
-  <IDL_Update_Message>Idle Dungeon Looting a été installé ou mis à jour pour cette colonie.\n\nCette version ajoute des valeurs de butin et de recherche configurables, un système commun de menaces avec infestations, pillards et entités d'Anomaly, une probabilité de rencontre croissante, des notifications narratives traduites et une prise en charge complète de RimWorld 1.5 et 1.6.\n\nToutes les options sont disponibles dans Options > Paramètres des mods.</IDL_Update_Message>
+  <IDL_Update_Message>Idle Dungeon Looting a été installé ou mis à jour pour cette colonie.\n\nCette fenêtre affiche uniquement les dernières modifications importantes en jeu. L'historique complet est disponible dans le changelog Steam.</IDL_Update_Message>
   <IDL_Update_Subtitle>De nouvelles profondeurs, richesses et menaces.</IDL_Update_Subtitle>
+  <IDL_Update_CurrentHeader>Mise à jour actuelle</IDL_Update_CurrentHeader>
+  <IDL_Update_CurrentText>Le gestionnaire de réserve d'objets indique plus clairement quels objets sont réellement actifs dans la catégorie de butin sélectionnée. Les objets de DLC et de mods ajoutés automatiquement ne sont plus attribués qu'à une seule catégorie prioritaire, afin que les matériaux de construction n'apparaissent plus aussi comme matériaux d'artisanat.</IDL_Update_CurrentText>
+  <IDL_Update_PreviousHeader>Mise à jour précédente</IDL_Update_PreviousHeader>
+  <IDL_Update_PreviousText>La version 1.3.1 a étendu les menaces du donjon : les zombies et les goules peuvent apparaître comme entités d'Anomaly depuis le donjon, les pillards et les entités disposent de leurs propres options, et le mode développeur propose des actions de débogage pour tester ces événements.</IDL_Update_PreviousText>
+  <IDL_Update_SteamHeader>Anciennes modifications</IDL_Update_SteamHeader>
+  <IDL_Update_SteamText>Les anciennes modifications sont listées dans le changelog Steam :\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/3753897816</IDL_Update_SteamText>
   <IDL_Update_GameplayHeader>Expéditions dans le donjon</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Les tirages de butin, la quantité d'objets et la durée de recherche peuvent désormais être ajustés. Les expéditions inachevées sont recalculées proportionnellement lorsque la durée change.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Menaces des profondeurs</IDL_Update_ThreatsHeader>
   <IDL_Update_ThreatsText>Les infestations, pillards, zombies et goules partagent une probabilité croissante et un délai commun. Le poids, la puissance, l'influence de la progression et la fréquence sont configurables.</IDL_Update_ThreatsText>
+  <IDL_Update_ItemPoolHeader>Réserves de butin étendues</IDL_Update_ItemPoolHeader>
+  <IDL_Update_ItemPoolText>Les DLC installés et les autres mods peuvent désormais ajouter des objets aux catégories de butin de donjon correspondantes. Un gestionnaire avec recherche permet d'inclure ou d'exclure chaque objet.</IDL_Update_ItemPoolText>
   <IDL_Update_DebugHeader>Outils de développement</IDL_Update_DebugHeader>
   <IDL_Update_DebugText>Lorsque le mode développeur est activé, des actions de débogage permettent de déclencher chaque menace du donjon, d'effectuer un jet normal, d'afficher ou réinitialiser son état, de générer du butin et de rouvrir cette fenêtre.</IDL_Update_DebugText>
   <IDL_Update_CompatibilityHeader>Compatibilité</IDL_Update_CompatibilityHeader>
@@ -17,6 +25,31 @@
   <IDL_Settings_TabGameplay>Jeu</IDL_Settings_TabGameplay>
   <IDL_Settings_TabLoot>Butin</IDL_Settings_TabLoot>
   <IDL_Settings_TabThreats>Menaces</IDL_Settings_TabThreats>
+  <IDL_Settings_TabItemPool>Objets</IDL_Settings_TabItemPool>
+  <IDL_Settings_ItemPoolSourcesHeader>Sources de butin</IDL_Settings_ItemPoolSourcesHeader>
+  <IDL_Settings_ItemPoolSourcesDescription>Activez les sources installées dont les objets appropriés pourront apparaître lors des recherches de donjon correspondantes.</IDL_Settings_ItemPoolSourcesDescription>
+  <IDL_Settings_DlcItemsEnabled>Autoriser les objets de {0}</IDL_Settings_DlcItemsEnabled>
+  <IDL_Settings_DlcItemsEnabledTooltip>Ajoute les objets appropriés de {0} aux catégories de butin de donjon correspondantes.</IDL_Settings_DlcItemsEnabledTooltip>
+  <IDL_Settings_ModItemsEnabled>Autoriser les objets des autres mods</IDL_Settings_ModItemsEnabled>
+  <IDL_Settings_ModItemsEnabledTooltip>Ajoute automatiquement les objets appropriés des mods actifs non officiels. Chaque objet peut toujours être exclu.</IDL_Settings_ModItemsEnabledTooltip>
+  <IDL_Settings_ManualItemPoolDescription>Gérez les objets de chaque catégorie de butin. Les choix manuels remplacent les règles automatiques de source et de catégorie.</IDL_Settings_ManualItemPoolDescription>
+  <IDL_Settings_ManageItemPool>Gérer les objets individuels</IDL_Settings_ManageItemPool>
+  <IDL_Settings_ResetItemPool>Réinitialiser les réserves d'objets</IDL_Settings_ResetItemPool>
+  <IDL_ItemPool_Title>Réserve d'objets du donjon</IDL_ItemPool_Title>
+  <IDL_ItemPool_ResultCount>{0} objets correspondants</IDL_ItemPool_ResultCount>
+  <IDL_ItemPool_ResetCategory>Réinitialiser la catégorie</IDL_ItemPool_ResetCategory>
+  <IDL_ItemPool_StateDefault>Par défaut</IDL_ItemPool_StateDefault>
+  <IDL_ItemPool_StateIncluded>Inclure</IDL_ItemPool_StateIncluded>
+  <IDL_ItemPool_StateExcluded>Exclure</IDL_ItemPool_StateExcluded>
+  <IDL_ItemPool_ViewActiveInCategory>Catégorie active</IDL_ItemPool_ViewActiveInCategory>
+  <IDL_ItemPool_ViewAllItems>Tous les objets</IDL_ItemPool_ViewAllItems>
+  <IDL_ItemPool_ViewManualOverrides>Choix manuels</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_EffectiveAutomatic>Dans la réserve</IDL_ItemPool_EffectiveAutomatic>
+  <IDL_ItemPool_EffectiveIncluded>Forcé</IDL_ItemPool_EffectiveIncluded>
+  <IDL_ItemPool_EffectiveExcluded>Exclu</IDL_ItemPool_EffectiveExcluded>
+  <IDL_ItemPool_EffectiveInactive>Inactif</IDL_ItemPool_EffectiveInactive>
+  <IDL_ItemPool_AutomaticIncluded>Cet objet est inclus par la réserve par défaut ou les paramètres de source actuels.</IDL_ItemPool_AutomaticIncluded>
+  <IDL_ItemPool_AutomaticExcluded>Cet objet n'est pas ajouté automatiquement avec les règles actuelles de source et de catégorie.</IDL_ItemPool_AutomaticExcluded>
   <IDL_Settings_ResetLoot>Réinitialiser les paramètres de butin</IDL_Settings_ResetLoot>
   <IDL_Settings_ResetThreats>Réinitialiser les paramètres de menace</IDL_Settings_ResetThreats>
   <IDL_Settings_LootAmount>Tirages de butin</IDL_Settings_LootAmount>
