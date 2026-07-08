@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
-  <IDL_Update_Message>Idle Dungeon Looting a été installé ou mis à jour pour cette colonie.\n\nCette version ajoute des valeurs de butin et de recherche configurables, un système commun de menaces avec infestations, pillards et entités d'Anomaly, une probabilité de rencontre croissante, des notifications narratives traduites et une prise en charge complète de RimWorld 1.5 et 1.6.\n\nToutes les options sont disponibles dans Options > Paramètres des mods.</IDL_Update_Message>
+  <IDL_Update_Message>Idle Dungeon Looting a été installé ou mis à jour pour cette colonie.\n\nCette fenêtre affiche uniquement les dernières modifications importantes en jeu. L'historique complet est disponible dans le changelog Steam.</IDL_Update_Message>
   <IDL_Update_Subtitle>De nouvelles profondeurs, richesses et menaces.</IDL_Update_Subtitle>
+  <IDL_Update_CurrentHeader>Mise à jour actuelle</IDL_Update_CurrentHeader>
+  <IDL_Update_CurrentText>Le gestionnaire de réserve d'objets indique plus clairement quels objets sont réellement actifs dans la catégorie de butin sélectionnée. Les objets de DLC et de mods ajoutés automatiquement ne sont plus attribués qu'à une seule catégorie prioritaire, afin que les matériaux de construction n'apparaissent plus aussi comme matériaux d'artisanat.</IDL_Update_CurrentText>
+  <IDL_Update_PreviousHeader>Mise à jour précédente</IDL_Update_PreviousHeader>
+  <IDL_Update_PreviousText>La version 1.3.1 a étendu les menaces du donjon : les zombies et les goules peuvent apparaître comme entités d'Anomaly depuis le donjon, les pillards et les entités disposent de leurs propres options, et le mode développeur propose des actions de débogage pour tester ces événements.</IDL_Update_PreviousText>
+  <IDL_Update_SteamHeader>Anciennes modifications</IDL_Update_SteamHeader>
+  <IDL_Update_SteamText>Les anciennes modifications sont listées dans le changelog Steam :\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/3753897816</IDL_Update_SteamText>
   <IDL_Update_GameplayHeader>Expéditions dans le donjon</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Les tirages de butin, la quantité d'objets et la durée de recherche peuvent désormais être ajustés. Les expéditions inachevées sont recalculées proportionnellement lorsque la durée change.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Menaces des profondeurs</IDL_Update_ThreatsHeader>

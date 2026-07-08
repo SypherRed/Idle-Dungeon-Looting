@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <IDL_Update_Title>Idle Dungeon Looting {0}</IDL_Update_Title>
-  <IDL_Update_Message>Idle Dungeon Looting was installed or updated for this colony.\n\nThis version adds configurable loot and search values, a shared dungeon-threat system with infestations, raiders and Anomaly entities, escalating encounter chances, translated lore notifications, and full RimWorld 1.5 and 1.6 support.\n\nAll options can be adjusted under Options > Mod settings.</IDL_Update_Message>
+  <IDL_Update_Message>Idle Dungeon Looting was installed or updated for this colony.\n\nThis window only shows the latest important in-game changes. The full history is available in the Steam changelog.</IDL_Update_Message>
   <IDL_Update_Subtitle>New depths. New rewards. New dangers.</IDL_Update_Subtitle>
+  <IDL_Update_CurrentHeader>Current update</IDL_Update_CurrentHeader>
+  <IDL_Update_CurrentText>The item pool manager now makes it clearer which items are actually active in the selected loot category. Automatically loaded DLC and mod items are assigned to one preferred category only, so building materials no longer also appear as crafting materials.</IDL_Update_CurrentText>
+  <IDL_Update_PreviousHeader>Previous update</IDL_Update_PreviousHeader>
+  <IDL_Update_PreviousText>Version 1.3.1 expanded dungeon threats: shamblers and ghouls can appear as Anomaly entities from the dungeon, raiders and entities have dedicated mod options, and developer mode includes debug actions for testing these events.</IDL_Update_PreviousText>
+  <IDL_Update_SteamHeader>Older changes</IDL_Update_SteamHeader>
+  <IDL_Update_SteamText>Older changes are listed in the Steam changelog:\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/3753897816</IDL_Update_SteamText>
   <IDL_Update_GameplayHeader>Dungeon expeditions</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Loot rolls, item amounts, and search duration can now be adjusted. Active unfinished expeditions adapt proportionally when the duration changes.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Threats from below</IDL_Update_ThreatsHeader>
