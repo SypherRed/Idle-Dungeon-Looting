@@ -4,11 +4,12 @@
   <IDL_Update_Message>Idle Dungeon Looting se ha instalado o actualizado para esta colonia.\n\nEsta ventana solo muestra los últimos cambios importantes dentro del juego. El historial completo está disponible en el changelog de Steam.</IDL_Update_Message>
   <IDL_Update_Subtitle>Nuevas profundidades, tesoros y peligros.</IDL_Update_Subtitle>
   <IDL_Update_CurrentHeader>Actualización actual</IDL_Update_CurrentHeader>
-  <IDL_Update_CurrentText>El gestor de grupos de objetos ahora muestra con más claridad qué objetos están realmente activos en la categoría de botín seleccionada. Los objetos de DLC y mods añadidos automáticamente se asignan solo a una categoría preferida, para que los materiales de construcción no aparezcan también como materiales de fabricación.</IDL_Update_CurrentText>
+  <IDL_Update_CurrentText>La versión 1.4.1 añade nuevas imágenes para la entrada de la mazmorra según su orientación. Los contornos más marcados, las superficies simplificadas y un sombreado más claro hacen que la estructura encaje de forma más natural con el estilo visual de RimWorld.</IDL_Update_CurrentText>
   <IDL_Update_PreviousHeader>Actualización anterior</IDL_Update_PreviousHeader>
-  <IDL_Update_PreviousText>La versión 1.3.1 amplió las amenazas de la mazmorra: los caminantes y necrófagos pueden aparecer como entidades de Anomaly desde la mazmorra, los saqueadores y entidades tienen sus propias opciones de mod, y el modo desarrollador incluye acciones de depuración para probar estos eventos.</IDL_Update_PreviousText>
+  <IDL_Update_PreviousText>La versión 1.4.0 mejoró el gestor de grupos de objetos para mostrar claramente qué objetos están activos en la categoría de botín seleccionada. Los objetos de DLC y mods añadidos automáticamente se asignan solo a una categoría preferida.</IDL_Update_PreviousText>
   <IDL_Update_SteamHeader>Cambios anteriores</IDL_Update_SteamHeader>
-  <IDL_Update_SteamText>Los cambios anteriores están en el changelog de Steam:\nhttps://steamcommunity.com/sharedfiles/filedetails/changelog/3753897816</IDL_Update_SteamText>
+  <IDL_Update_SteamText>Los cambios anteriores están en el changelog completo de Steam.</IDL_Update_SteamText>
+  <IDL_Update_OpenSteam>Abrir changelog de Steam</IDL_Update_OpenSteam>
   <IDL_Update_GameplayHeader>Expediciones a la mazmorra</IDL_Update_GameplayHeader>
   <IDL_Update_GameplayText>Ahora pueden ajustarse las tiradas de botín, la cantidad de objetos y la duración de búsqueda. Las expediciones sin terminar se recalculan proporcionalmente cuando cambia la duración.</IDL_Update_GameplayText>
   <IDL_Update_ThreatsHeader>Amenazas de las profundidades</IDL_Update_ThreatsHeader>
