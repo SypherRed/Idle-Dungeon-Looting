@@ -4,9 +4,9 @@
   <IDL_Update_Message>Idle Dungeon Looting a été installé ou mis à jour pour cette colonie.\n\nCette fenêtre affiche uniquement les dernières modifications importantes en jeu. L'historique complet est disponible dans le changelog Steam.</IDL_Update_Message>
   <IDL_Update_Subtitle>De nouvelles profondeurs, richesses et menaces.</IDL_Update_Subtitle>
   <IDL_Update_CurrentHeader>Mise à jour actuelle</IDL_Update_CurrentHeader>
-  <IDL_Update_CurrentText>La version 1.4.1 ajoute de nouvelles images à l'entrée du donjon selon son orientation. Des contours plus marqués, des surfaces simplifiées et des ombres plus lisibles permettent à la structure de mieux s'intégrer au style visuel de RimWorld.</IDL_Update_CurrentText>
+  <IDL_Update_CurrentText>La version 1.4.2 ajoute un filtre dédié au contenu des mods dans le gestionnaire d'objets individuels. Les objets de mods peuvent désormais être affichés séparément, ce qui rend les longues listes plus rapides et plus faciles à gérer.</IDL_Update_CurrentText>
   <IDL_Update_PreviousHeader>Mise à jour précédente</IDL_Update_PreviousHeader>
-  <IDL_Update_PreviousText>La version 1.4.0 a amélioré le gestionnaire de réserve d'objets afin d'indiquer clairement quels objets sont actifs dans la catégorie de butin sélectionnée. Les objets de DLC et de mods ajoutés automatiquement ne sont attribués qu'à une seule catégorie prioritaire.</IDL_Update_PreviousText>
+  <IDL_Update_PreviousText>La version 1.4.1 ajoute de nouvelles images à l'entrée du donjon selon son orientation. Des contours plus marqués, des surfaces simplifiées et des ombres plus lisibles permettent à la structure de mieux s'intégrer au style visuel de RimWorld.</IDL_Update_PreviousText>
   <IDL_Update_SteamHeader>Anciennes modifications</IDL_Update_SteamHeader>
   <IDL_Update_SteamText>Les anciennes modifications sont listées dans le changelog Steam complet.</IDL_Update_SteamText>
   <IDL_Update_OpenSteam>Ouvrir le changelog Steam</IDL_Update_OpenSteam>
@@ -45,6 +45,8 @@
   <IDL_ItemPool_ViewActiveInCategory>Catégorie active</IDL_ItemPool_ViewActiveInCategory>
   <IDL_ItemPool_ViewAllItems>Tous les objets</IDL_ItemPool_ViewAllItems>
   <IDL_ItemPool_ViewManualOverrides>Choix manuels</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_SourceFilterAllContent>Tout le contenu</IDL_ItemPool_SourceFilterAllContent>
+  <IDL_ItemPool_SourceFilterModdedItems>Objets de mods</IDL_ItemPool_SourceFilterModdedItems>
   <IDL_ItemPool_EffectiveAutomatic>Dans la réserve</IDL_ItemPool_EffectiveAutomatic>
   <IDL_ItemPool_EffectiveIncluded>Forcé</IDL_ItemPool_EffectiveIncluded>
   <IDL_ItemPool_EffectiveExcluded>Exclu</IDL_ItemPool_EffectiveExcluded>
