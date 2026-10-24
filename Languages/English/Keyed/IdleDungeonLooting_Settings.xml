@@ -4,9 +4,9 @@
   <IDL_Update_Message>Idle Dungeon Looting was installed or updated for this colony.\n\nThis window only shows the latest important in-game changes. The full history is available in the Steam changelog.</IDL_Update_Message>
   <IDL_Update_Subtitle>New depths. New rewards. New dangers.</IDL_Update_Subtitle>
   <IDL_Update_CurrentHeader>Current update</IDL_Update_CurrentHeader>
-  <IDL_Update_CurrentText>Version 1.4.1 gives the dungeon entrance new direction-specific artwork. Stronger outlines, simplified surfaces, and clearer shading make the structure fit RimWorld's visual style more naturally.</IDL_Update_CurrentText>
+  <IDL_Update_CurrentText>Version 1.4.2 adds a dedicated mod-content filter to the individual item manager. Modded items can now be shown separately, making large item lists quicker and easier to manage.</IDL_Update_CurrentText>
   <IDL_Update_PreviousHeader>Previous update</IDL_Update_PreviousHeader>
-  <IDL_Update_PreviousText>Version 1.4.0 improved the item pool manager so it clearly shows which items are active in the selected loot category. Automatically loaded DLC and mod items are assigned to one preferred category only.</IDL_Update_PreviousText>
+  <IDL_Update_PreviousText>Version 1.4.1 gave the dungeon entrance new direction-specific artwork. Stronger outlines, simplified surfaces, and clearer shading make the structure fit RimWorld's visual style more naturally.</IDL_Update_PreviousText>
   <IDL_Update_SteamHeader>Older changes</IDL_Update_SteamHeader>
   <IDL_Update_SteamText>Older changes are listed in the full Steam changelog.</IDL_Update_SteamText>
   <IDL_Update_OpenSteam>Open Steam changelog</IDL_Update_OpenSteam>
@@ -45,6 +45,8 @@
   <IDL_ItemPool_ViewActiveInCategory>Active category</IDL_ItemPool_ViewActiveInCategory>
   <IDL_ItemPool_ViewAllItems>All items</IDL_ItemPool_ViewAllItems>
   <IDL_ItemPool_ViewManualOverrides>Manual changes</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_SourceFilterAllContent>All content</IDL_ItemPool_SourceFilterAllContent>
+  <IDL_ItemPool_SourceFilterModdedItems>Modded items</IDL_ItemPool_SourceFilterModdedItems>
   <IDL_ItemPool_EffectiveAutomatic>In pool</IDL_ItemPool_EffectiveAutomatic>
   <IDL_ItemPool_EffectiveIncluded>Forced in</IDL_ItemPool_EffectiveIncluded>
   <IDL_ItemPool_EffectiveExcluded>Excluded</IDL_ItemPool_EffectiveExcluded>

@@ -4,9 +4,9 @@
   <IDL_Update_Message>Idle Dungeon Looting wurde für diese Kolonie installiert oder aktualisiert.\n\nDieses Fenster zeigt nur die letzten wichtigen Ingame-Änderungen. Die vollständige Historie findest du im Steam-Changelog.</IDL_Update_Message>
   <IDL_Update_Subtitle>Neue Tiefen. Neue Schätze. Neue Gefahren.</IDL_Update_Subtitle>
   <IDL_Update_CurrentHeader>Aktuelles Update</IDL_Update_CurrentHeader>
-  <IDL_Update_CurrentText>Version 1.4.1 gibt dem Dungeon-Eingang neue richtungsspezifische Grafiken. Kräftigere Konturen, vereinfachte Oberflächen und klarere Schattierungen sorgen dafür, dass sich das Bauwerk natürlicher in den Grafikstil von RimWorld einfügt.</IDL_Update_CurrentText>
+  <IDL_Update_CurrentText>Version 1.4.2 ergänzt die Verwaltung einzelner Gegenstände um einen eigenen Filter für Mod-Inhalte. Mod-Gegenstände lassen sich nun getrennt anzeigen, wodurch große Gegenstandslisten schneller und übersichtlicher verwaltet werden können.</IDL_Update_CurrentText>
   <IDL_Update_PreviousHeader>Vorheriges Update</IDL_Update_PreviousHeader>
-  <IDL_Update_PreviousText>Version 1.4.0 hat die Gegenstandspool-Verwaltung verbessert und zeigt nun klar, welche Gegenstände in der gewählten Beutekategorie aktiv sind. Automatisch geladene DLC- und Mod-Gegenstände werden nur noch einer bevorzugten Kategorie zugeordnet.</IDL_Update_PreviousText>
+  <IDL_Update_PreviousText>Version 1.4.1 gibt dem Dungeon-Eingang neue richtungsspezifische Grafiken. Kräftigere Konturen, vereinfachte Oberflächen und klarere Schattierungen sorgen dafür, dass sich das Bauwerk natürlicher in den Grafikstil von RimWorld einfügt.</IDL_Update_PreviousText>
   <IDL_Update_SteamHeader>Ältere Änderungen</IDL_Update_SteamHeader>
   <IDL_Update_SteamText>Weitere ältere Änderungen stehen im vollständigen Steam-Changelog.</IDL_Update_SteamText>
   <IDL_Update_OpenSteam>Steam-Changelog öffnen</IDL_Update_OpenSteam>
@@ -45,6 +45,8 @@
   <IDL_ItemPool_ViewActiveInCategory>Aktive Kategorie</IDL_ItemPool_ViewActiveInCategory>
   <IDL_ItemPool_ViewAllItems>Alle Gegenstände</IDL_ItemPool_ViewAllItems>
   <IDL_ItemPool_ViewManualOverrides>Manuelle Änderungen</IDL_ItemPool_ViewManualOverrides>
+  <IDL_ItemPool_SourceFilterAllContent>Alle Inhalte</IDL_ItemPool_SourceFilterAllContent>
+  <IDL_ItemPool_SourceFilterModdedItems>Mod-Gegenstände</IDL_ItemPool_SourceFilterModdedItems>
   <IDL_ItemPool_EffectiveAutomatic>Im Pool</IDL_ItemPool_EffectiveAutomatic>
   <IDL_ItemPool_EffectiveIncluded>Erzwungen</IDL_ItemPool_EffectiveIncluded>
   <IDL_ItemPool_EffectiveExcluded>Ausgeschlossen</IDL_ItemPool_EffectiveExcluded>
